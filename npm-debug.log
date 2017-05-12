@@ -1,0 +1,2812 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'update', '-g' ]
+2 info using npm@2.1.18
+3 info using node@v0.10.26
+4 silly mapToRegistry name cordova
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry uri https://registry.npmjs.org/cordova
+8 silly mapToRegistry name ios-sim
+9 silly mapToRegistry using default registry
+10 silly mapToRegistry registry https://registry.npmjs.org/
+11 silly mapToRegistry uri https://registry.npmjs.org/ios-sim
+12 silly mapToRegistry name npm
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/npm
+16 silly mapToRegistry name phonegap
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/phonegap
+20 verbose request uri https://registry.npmjs.org/cordova
+21 verbose request no auth needed
+22 info attempt registry request try #1 at 11:14:07
+23 verbose request id 40b4c984072a04ba
+24 verbose etag "CIPSQ8GRP1SVXEJ37ND1VD6L1"
+25 http request GET https://registry.npmjs.org/cordova
+26 verbose request uri https://registry.npmjs.org/ios-sim
+27 verbose request no auth needed
+28 info attempt registry request try #1 at 11:14:07
+29 verbose etag "1H76UOC6W9Z8XWWIXSB6N1P9A"
+30 http request GET https://registry.npmjs.org/ios-sim
+31 verbose request uri https://registry.npmjs.org/phonegap
+32 verbose request no auth needed
+33 info attempt registry request try #1 at 11:14:07
+34 verbose etag "5B1DAOO2KXD541UCTX6W2RKZQ"
+35 http request GET https://registry.npmjs.org/phonegap
+36 verbose request uri https://registry.npmjs.org/npm
+37 verbose request no auth needed
+38 info attempt registry request try #1 at 11:14:07
+39 verbose etag "L6S2AF130NGY8TRQACN8I859"
+40 http request GET https://registry.npmjs.org/npm
+41 http 200 https://registry.npmjs.org/cordova
+42 silly get cb [ 200,
+42 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+42 silly get     etag: '"86W63ZQSRX6WYLOQSUFFARY0N"',
+42 silly get     'content-type': 'application/json',
+42 silly get     'cache-control': 'max-age=60',
+42 silly get     'content-length': '351985',
+42 silly get     'accept-ranges': 'bytes',
+42 silly get     date: 'Tue, 23 Jun 2015 08:14:06 GMT',
+42 silly get     via: '1.1 varnish',
+42 silly get     age: '12',
+42 silly get     connection: 'keep-alive',
+42 silly get     'x-served-by': 'cache-lcy1124-LCY',
+42 silly get     'x-cache': 'HIT',
+42 silly get     'x-cache-hits': '1',
+42 silly get     'x-timer': 'S1435047246.654970,VS0,VE2',
+42 silly get     vary: 'Accept' } ]
+43 http 304 https://registry.npmjs.org/ios-sim
+44 silly get cb [ 304,
+44 silly get   { date: 'Tue, 23 Jun 2015 08:14:06 GMT',
+44 silly get     via: '1.1 varnish',
+44 silly get     'cache-control': 'max-age=60',
+44 silly get     etag: '"1H76UOC6W9Z8XWWIXSB6N1P9A"',
+44 silly get     age: '0',
+44 silly get     connection: 'keep-alive',
+44 silly get     'x-served-by': 'cache-lcy1126-LCY',
+44 silly get     'x-cache': 'MISS',
+44 silly get     'x-cache-hits': '0',
+44 silly get     'x-timer': 'S1435047246.655896,VS0,VE670',
+44 silly get     vary: 'Accept' } ]
+45 verbose etag https://registry.npmjs.org/ios-sim from cache
+46 http 200 https://registry.npmjs.org/phonegap
+47 silly get cb [ 200,
+47 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+47 silly get     etag: '"722829MX8OJDGHVRTTSMK3BRU"',
+47 silly get     'content-type': 'application/json',
+47 silly get     'cache-control': 'max-age=60',
+47 silly get     'content-length': '219373',
+47 silly get     'accept-ranges': 'bytes',
+47 silly get     date: 'Tue, 23 Jun 2015 08:14:07 GMT',
+47 silly get     via: '1.1 varnish',
+47 silly get     age: '0',
+47 silly get     connection: 'keep-alive',
+47 silly get     'x-served-by': 'cache-lcy1131-LCY',
+47 silly get     'x-cache': 'MISS',
+47 silly get     'x-cache-hits': '0',
+47 silly get     'x-timer': 'S1435047246.656189,VS0,VE657',
+47 silly get     vary: 'Accept' } ]
+48 silly mapToRegistry name colors
+49 silly mapToRegistry using default registry
+50 silly mapToRegistry registry https://registry.npmjs.org/
+51 silly mapToRegistry uri https://registry.npmjs.org/colors
+52 silly mapToRegistry name connect-phonegap
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry uri https://registry.npmjs.org/connect-phonegap
+56 silly mapToRegistry name cordova
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry uri https://registry.npmjs.org/cordova
+60 silly mapToRegistry name minimist
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry uri https://registry.npmjs.org/minimist
+64 silly mapToRegistry name phonegap-build
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://registry.npmjs.org/
+67 silly mapToRegistry uri https://registry.npmjs.org/phonegap-build
+68 silly mapToRegistry name pluralize
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry uri https://registry.npmjs.org/pluralize
+72 silly mapToRegistry name prompt
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry uri https://registry.npmjs.org/prompt
+76 silly mapToRegistry name qrcode-terminal
+77 silly mapToRegistry using default registry
+78 silly mapToRegistry registry https://registry.npmjs.org/
+79 silly mapToRegistry uri https://registry.npmjs.org/qrcode-terminal
+80 silly mapToRegistry name semver
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry uri https://registry.npmjs.org/semver
+84 silly mapToRegistry name shelljs
+85 silly mapToRegistry using default registry
+86 silly mapToRegistry registry https://registry.npmjs.org/
+87 silly mapToRegistry uri https://registry.npmjs.org/shelljs
+88 verbose get https://registry.npmjs.org/cordova not expired, no request
+89 verbose request uri https://registry.npmjs.org/colors
+90 verbose request no auth needed
+91 info attempt registry request try #1 at 11:14:09
+92 verbose etag "4W7RTZC6VAPV27D4QUU7GN68J"
+93 http request GET https://registry.npmjs.org/colors
+94 verbose request uri https://registry.npmjs.org/connect-phonegap
+95 verbose request no auth needed
+96 info attempt registry request try #1 at 11:14:09
+97 verbose etag "2LL7Z385T1MJUSZ5ARAVJ73MQ"
+98 http request GET https://registry.npmjs.org/connect-phonegap
+99 verbose request uri https://registry.npmjs.org/minimist
+100 verbose request no auth needed
+101 info attempt registry request try #1 at 11:14:09
+102 verbose etag "KU9FAKZ4KW5UIQ0U875EOUCW"
+103 http request GET https://registry.npmjs.org/minimist
+104 verbose request uri https://registry.npmjs.org/phonegap-build
+105 verbose request no auth needed
+106 info attempt registry request try #1 at 11:14:09
+107 verbose etag "BTGTQNR90TEKGJGI0OB3VONMF"
+108 http request GET https://registry.npmjs.org/phonegap-build
+109 verbose request uri https://registry.npmjs.org/pluralize
+110 verbose request no auth needed
+111 info attempt registry request try #1 at 11:14:09
+112 verbose etag "BTWLANYB4XD973KCDBTDFTS7U"
+113 http request GET https://registry.npmjs.org/pluralize
+114 verbose request uri https://registry.npmjs.org/prompt
+115 verbose request no auth needed
+116 info attempt registry request try #1 at 11:14:09
+117 verbose etag "3QG6HSYNCWSPGT7LF0PHMO8QX"
+118 http request GET https://registry.npmjs.org/prompt
+119 verbose request uri https://registry.npmjs.org/semver
+120 verbose request no auth needed
+121 info attempt registry request try #1 at 11:14:09
+122 verbose etag "CX6SBIBAR8CNCC9FRV7RVDYPR"
+123 http request GET https://registry.npmjs.org/semver
+124 verbose request uri https://registry.npmjs.org/qrcode-terminal
+125 verbose request no auth needed
+126 info attempt registry request try #1 at 11:14:09
+127 verbose etag "30O1HHZT4NENDGFMFZXOSZZ2C"
+128 http request GET https://registry.npmjs.org/qrcode-terminal
+129 verbose request uri https://registry.npmjs.org/shelljs
+130 verbose request no auth needed
+131 info attempt registry request try #1 at 11:14:09
+132 verbose etag "5DO62DE5898V3HDHEQSQQTWYI"
+133 http request GET https://registry.npmjs.org/shelljs
+134 http 200 https://registry.npmjs.org/colors
+135 silly get cb [ 200,
+135 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+135 silly get     etag: '"C7D8CNZ26IB8AS9QV43NMBMR4"',
+135 silly get     'content-type': 'application/json',
+135 silly get     'cache-control': 'max-age=60',
+135 silly get     'content-length': '19404',
+135 silly get     'accept-ranges': 'bytes',
+135 silly get     date: 'Tue, 23 Jun 2015 08:14:08 GMT',
+135 silly get     via: '1.1 varnish',
+135 silly get     age: '14',
+135 silly get     connection: 'keep-alive',
+135 silly get     'x-served-by': 'cache-lcy1129-LCY',
+135 silly get     'x-cache': 'HIT',
+135 silly get     'x-cache-hits': '1',
+135 silly get     'x-timer': 'S1435047248.444871,VS0,VE0',
+135 silly get     vary: 'Accept' } ]
+136 http 200 https://registry.npmjs.org/minimist
+137 silly get cb [ 200,
+137 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+137 silly get     etag: '"9WNOP61IYTRDY6M9CE38XTBCS"',
+137 silly get     'content-type': 'application/json',
+137 silly get     'cache-control': 'max-age=60',
+137 silly get     'content-length': '22808',
+137 silly get     'accept-ranges': 'bytes',
+137 silly get     date: 'Tue, 23 Jun 2015 08:14:08 GMT',
+137 silly get     via: '1.1 varnish',
+137 silly get     age: '29',
+137 silly get     connection: 'keep-alive',
+137 silly get     'x-served-by': 'cache-lcy1123-LCY',
+137 silly get     'x-cache': 'HIT',
+137 silly get     'x-cache-hits': '6',
+137 silly get     'x-timer': 'S1435047248.454531,VS0,VE0',
+137 silly get     vary: 'Accept' } ]
+138 http 304 https://registry.npmjs.org/phonegap-build
+139 silly get cb [ 304,
+139 silly get   { date: 'Tue, 23 Jun 2015 08:14:08 GMT',
+139 silly get     via: '1.1 varnish',
+139 silly get     'cache-control': 'max-age=60',
+139 silly get     etag: '"BTGTQNR90TEKGJGI0OB3VONMF"',
+139 silly get     age: '0',
+139 silly get     connection: 'keep-alive',
+139 silly get     'x-served-by': 'cache-lcy1132-LCY',
+139 silly get     'x-cache': 'HIT',
+139 silly get     'x-cache-hits': '1',
+139 silly get     'x-timer': 'S1435047248.456102,VS0,VE98',
+139 silly get     vary: 'Accept' } ]
+140 verbose etag https://registry.npmjs.org/phonegap-build from cache
+141 silly mapToRegistry name colors
+142 silly mapToRegistry using default registry
+143 silly mapToRegistry registry https://registry.npmjs.org/
+144 silly mapToRegistry uri https://registry.npmjs.org/colors
+145 silly mapToRegistry name prompt
+146 silly mapToRegistry using default registry
+147 silly mapToRegistry registry https://registry.npmjs.org/
+148 silly mapToRegistry uri https://registry.npmjs.org/prompt
+149 silly mapToRegistry name shelljs
+150 silly mapToRegistry using default registry
+151 silly mapToRegistry registry https://registry.npmjs.org/
+152 silly mapToRegistry uri https://registry.npmjs.org/shelljs
+153 silly mapToRegistry name optimist
+154 silly mapToRegistry using default registry
+155 silly mapToRegistry registry https://registry.npmjs.org/
+156 silly mapToRegistry uri https://registry.npmjs.org/optimist
+157 silly mapToRegistry name qrcode-terminal
+158 silly mapToRegistry using default registry
+159 silly mapToRegistry registry https://registry.npmjs.org/
+160 silly mapToRegistry uri https://registry.npmjs.org/qrcode-terminal
+161 silly mapToRegistry name phonegap-build-api
+162 silly mapToRegistry using default registry
+163 silly mapToRegistry registry https://registry.npmjs.org/
+164 silly mapToRegistry uri https://registry.npmjs.org/phonegap-build-api
+165 verbose request uri https://registry.npmjs.org/prompt
+166 verbose request no auth needed
+167 info attempt registry request try #1 at 11:14:09
+168 verbose etag "3QG6HSYNCWSPGT7LF0PHMO8QX"
+169 http request GET https://registry.npmjs.org/prompt
+170 verbose request uri https://registry.npmjs.org/shelljs
+171 verbose request no auth needed
+172 info attempt registry request try #1 at 11:14:09
+173 verbose etag "5DO62DE5898V3HDHEQSQQTWYI"
+174 http request GET https://registry.npmjs.org/shelljs
+175 verbose request uri https://registry.npmjs.org/qrcode-terminal
+176 verbose request no auth needed
+177 info attempt registry request try #1 at 11:14:09
+178 verbose etag "30O1HHZT4NENDGFMFZXOSZZ2C"
+179 http request GET https://registry.npmjs.org/qrcode-terminal
+180 verbose get https://registry.npmjs.org/colors not expired, no request
+181 verbose request uri https://registry.npmjs.org/optimist
+182 verbose request no auth needed
+183 info attempt registry request try #1 at 11:14:09
+184 verbose etag "A8T22G2NKW7BNN2VBLXJ3SP7H"
+185 http request GET https://registry.npmjs.org/optimist
+186 verbose request uri https://registry.npmjs.org/phonegap-build-api
+187 verbose request no auth needed
+188 info attempt registry request try #1 at 11:14:09
+189 verbose etag "CNVMHW9JN0SUM234RW7A2HD38"
+190 http request GET https://registry.npmjs.org/phonegap-build-api
+191 http 304 https://registry.npmjs.org/connect-phonegap
+192 silly get cb [ 304,
+192 silly get   { date: 'Tue, 23 Jun 2015 08:14:08 GMT',
+192 silly get     via: '1.1 varnish',
+192 silly get     'cache-control': 'max-age=60',
+192 silly get     etag: '"2LL7Z385T1MJUSZ5ARAVJ73MQ"',
+192 silly get     age: '0',
+192 silly get     connection: 'keep-alive',
+192 silly get     'x-served-by': 'cache-lcy1124-LCY',
+192 silly get     'x-cache': 'MISS',
+192 silly get     'x-cache-hits': '0',
+192 silly get     'x-timer': 'S1435047248.441822,VS0,VE164',
+192 silly get     vary: 'Accept' } ]
+193 verbose etag https://registry.npmjs.org/connect-phonegap from cache
+194 http 304 https://registry.npmjs.org/semver
+195 silly get cb [ 304,
+195 silly get   { date: 'Tue, 23 Jun 2015 08:14:08 GMT',
+195 silly get     via: '1.1 varnish',
+195 silly get     'cache-control': 'max-age=60',
+195 silly get     etag: '"CX6SBIBAR8CNCC9FRV7RVDYPR"',
+195 silly get     age: '52',
+195 silly get     connection: 'keep-alive',
+195 silly get     'x-served-by': 'cache-lcy1132-LCY',
+195 silly get     'x-cache': 'HIT',
+195 silly get     'x-cache-hits': '3',
+195 silly get     'x-timer': 'S1435047248.636057,VS0,VE0',
+195 silly get     vary: 'Accept' } ]
+196 verbose etag https://registry.npmjs.org/semver from cache
+197 silly mapToRegistry name archiver
+198 silly mapToRegistry using default registry
+199 silly mapToRegistry registry https://registry.npmjs.org/
+200 silly mapToRegistry uri https://registry.npmjs.org/archiver
+201 silly mapToRegistry name connect
+202 silly mapToRegistry using default registry
+203 silly mapToRegistry registry https://registry.npmjs.org/
+204 silly mapToRegistry uri https://registry.npmjs.org/connect
+205 silly mapToRegistry name connect-inject
+206 silly mapToRegistry using default registry
+207 silly mapToRegistry registry https://registry.npmjs.org/
+208 silly mapToRegistry uri https://registry.npmjs.org/connect-inject
+209 silly mapToRegistry name gaze
+210 silly mapToRegistry using default registry
+211 silly mapToRegistry registry https://registry.npmjs.org/
+212 silly mapToRegistry uri https://registry.npmjs.org/gaze
+213 silly mapToRegistry name home-dir
+214 silly mapToRegistry using default registry
+215 silly mapToRegistry registry https://registry.npmjs.org/
+216 silly mapToRegistry uri https://registry.npmjs.org/home-dir
+217 silly mapToRegistry name http-proxy
+218 silly mapToRegistry using default registry
+219 silly mapToRegistry registry https://registry.npmjs.org/
+220 silly mapToRegistry uri https://registry.npmjs.org/http-proxy
+221 silly mapToRegistry name ip
+222 silly mapToRegistry using default registry
+223 silly mapToRegistry registry https://registry.npmjs.org/
+224 silly mapToRegistry uri https://registry.npmjs.org/ip
+225 silly mapToRegistry name localtunnel
+226 silly mapToRegistry using default registry
+227 silly mapToRegistry registry https://registry.npmjs.org/
+228 silly mapToRegistry uri https://registry.npmjs.org/localtunnel
+229 silly mapToRegistry name node-static
+230 silly mapToRegistry using default registry
+231 silly mapToRegistry registry https://registry.npmjs.org/
+232 silly mapToRegistry uri https://registry.npmjs.org/node-static
+233 silly mapToRegistry name request
+234 silly mapToRegistry using default registry
+235 silly mapToRegistry registry https://registry.npmjs.org/
+236 silly mapToRegistry uri https://registry.npmjs.org/request
+237 silly mapToRegistry name request-progress
+238 silly mapToRegistry using default registry
+239 silly mapToRegistry registry https://registry.npmjs.org/
+240 silly mapToRegistry uri https://registry.npmjs.org/request-progress
+241 silly mapToRegistry name shelljs
+242 silly mapToRegistry using default registry
+243 silly mapToRegistry registry https://registry.npmjs.org/
+244 silly mapToRegistry uri https://registry.npmjs.org/shelljs
+245 silly mapToRegistry name socket.io
+246 silly mapToRegistry using default registry
+247 silly mapToRegistry registry https://registry.npmjs.org/
+248 silly mapToRegistry uri https://registry.npmjs.org/socket.io
+249 silly mapToRegistry name tar
+250 silly mapToRegistry using default registry
+251 silly mapToRegistry registry https://registry.npmjs.org/
+252 silly mapToRegistry uri https://registry.npmjs.org/tar
+253 silly mapToRegistry name useragent
+254 silly mapToRegistry using default registry
+255 silly mapToRegistry registry https://registry.npmjs.org/
+256 silly mapToRegistry uri https://registry.npmjs.org/useragent
+257 silly mapToRegistry name walkdir
+258 silly mapToRegistry using default registry
+259 silly mapToRegistry registry https://registry.npmjs.org/
+260 silly mapToRegistry uri https://registry.npmjs.org/walkdir
+261 http 304 https://registry.npmjs.org/pluralize
+262 silly get cb [ 304,
+262 silly get   { date: 'Tue, 23 Jun 2015 08:14:08 GMT',
+262 silly get     via: '1.1 varnish',
+262 silly get     'cache-control': 'max-age=60',
+262 silly get     etag: '"BTWLANYB4XD973KCDBTDFTS7U"',
+262 silly get     age: '0',
+262 silly get     connection: 'keep-alive',
+262 silly get     'x-served-by': 'cache-lcy1129-LCY',
+262 silly get     'x-cache': 'HIT',
+262 silly get     'x-cache-hits': '1',
+262 silly get     'x-timer': 'S1435047248.582401,VS0,VE88',
+262 silly get     vary: 'Accept' } ]
+263 verbose etag https://registry.npmjs.org/pluralize from cache
+264 verbose request uri https://registry.npmjs.org/archiver
+265 verbose request no auth needed
+266 info attempt registry request try #1 at 11:14:09
+267 verbose etag "8697A6I18YHSBDIU880I43SBS"
+268 http request GET https://registry.npmjs.org/archiver
+269 verbose request uri https://registry.npmjs.org/connect
+270 verbose request no auth needed
+271 info attempt registry request try #1 at 11:14:09
+272 verbose etag "B6RL5MLXDG81U6V2PSAC3DUU"
+273 http request GET https://registry.npmjs.org/connect
+274 verbose request uri https://registry.npmjs.org/connect-inject
+275 verbose request no auth needed
+276 info attempt registry request try #1 at 11:14:09
+277 verbose etag "5555VW4UWDFU5SKLK6BOQ0RPI"
+278 http request GET https://registry.npmjs.org/connect-inject
+279 verbose request uri https://registry.npmjs.org/home-dir
+280 verbose request no auth needed
+281 info attempt registry request try #1 at 11:14:09
+282 verbose etag "BUKZVIPOFXIHQPM5UL6N8LHVG"
+283 http request GET https://registry.npmjs.org/home-dir
+284 verbose request uri https://registry.npmjs.org/gaze
+285 verbose request no auth needed
+286 info attempt registry request try #1 at 11:14:09
+287 verbose etag "73G901TXN8KGRTEFWTUSJB72M"
+288 http request GET https://registry.npmjs.org/gaze
+289 verbose request uri https://registry.npmjs.org/http-proxy
+290 verbose request no auth needed
+291 info attempt registry request try #1 at 11:14:09
+292 verbose etag "8XRUIARULYZGRVSUCHBBCXOKK"
+293 http request GET https://registry.npmjs.org/http-proxy
+294 verbose request uri https://registry.npmjs.org/ip
+295 verbose request no auth needed
+296 info attempt registry request try #1 at 11:14:09
+297 verbose etag "2CPEK6B74CEVLLFG2E792DIY5"
+298 http request GET https://registry.npmjs.org/ip
+299 verbose request uri https://registry.npmjs.org/localtunnel
+300 verbose request no auth needed
+301 info attempt registry request try #1 at 11:14:09
+302 verbose etag "XVYQCF5T1RB05J7AV0ZAIXZV"
+303 http request GET https://registry.npmjs.org/localtunnel
+304 verbose request uri https://registry.npmjs.org/shelljs
+305 verbose request no auth needed
+306 info attempt registry request try #1 at 11:14:09
+307 verbose etag "5DO62DE5898V3HDHEQSQQTWYI"
+308 http request GET https://registry.npmjs.org/shelljs
+309 verbose request uri https://registry.npmjs.org/request
+310 verbose request no auth needed
+311 info attempt registry request try #1 at 11:14:09
+312 verbose etag "DLJPEJ8VCD14OC2FCSLLCFDII"
+313 http request GET https://registry.npmjs.org/request
+314 verbose request uri https://registry.npmjs.org/node-static
+315 verbose request no auth needed
+316 info attempt registry request try #1 at 11:14:09
+317 verbose etag "6CIN053Y4D6JI3CIC17GOR2GI"
+318 http request GET https://registry.npmjs.org/node-static
+319 verbose request uri https://registry.npmjs.org/request-progress
+320 verbose request no auth needed
+321 info attempt registry request try #1 at 11:14:09
+322 verbose etag "45Z3LXVQC1VF2WIHD73CKTE0J"
+323 http request GET https://registry.npmjs.org/request-progress
+324 verbose request uri https://registry.npmjs.org/socket.io
+325 verbose request no auth needed
+326 info attempt registry request try #1 at 11:14:09
+327 verbose etag "9F3Z5K934QUYPKEOJO8LEGSMJ"
+328 http request GET https://registry.npmjs.org/socket.io
+329 verbose request uri https://registry.npmjs.org/tar
+330 verbose request no auth needed
+331 info attempt registry request try #1 at 11:14:09
+332 verbose etag "5WELXMBX7NWXCK2BAC2LJWPU"
+333 http request GET https://registry.npmjs.org/tar
+334 verbose request uri https://registry.npmjs.org/useragent
+335 verbose request no auth needed
+336 info attempt registry request try #1 at 11:14:09
+337 verbose etag "1EHP2ZHFMWAUEF7WKMGG6RVTI"
+338 http request GET https://registry.npmjs.org/useragent
+339 verbose request uri https://registry.npmjs.org/walkdir
+340 verbose request no auth needed
+341 info attempt registry request try #1 at 11:14:09
+342 verbose etag "BSD5N92DKPNN8C8Q0ZH0BDDKY"
+343 http request GET https://registry.npmjs.org/walkdir
+344 http 200 https://registry.npmjs.org/prompt
+345 silly get cb [ 200,
+345 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+345 silly get     etag: '"AXHUO5Z8F9OXM5FQUGABFQX8P"',
+345 silly get     'content-type': 'application/json',
+345 silly get     'cache-control': 'max-age=60',
+345 silly get     'content-length': '43665',
+345 silly get     'accept-ranges': 'bytes',
+345 silly get     date: 'Tue, 23 Jun 2015 08:14:08 GMT',
+345 silly get     via: '1.1 varnish',
+345 silly get     age: '0',
+345 silly get     connection: 'keep-alive',
+345 silly get     'x-served-by': 'cache-lcy1123-LCY',
+345 silly get     'x-cache': 'HIT',
+345 silly get     'x-cache-hits': '1',
+345 silly get     'x-timer': 'S1435047248.596984,VS0,VE105',
+345 silly get     vary: 'Accept' } ]
+346 http 200 https://registry.npmjs.org/prompt
+347 silly get cb [ 200,
+347 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+347 silly get     etag: '"AXHUO5Z8F9OXM5FQUGABFQX8P"',
+347 silly get     'content-type': 'application/json',
+347 silly get     'cache-control': 'max-age=60',
+347 silly get     'content-length': '43665',
+347 silly get     'accept-ranges': 'bytes',
+347 silly get     date: 'Tue, 23 Jun 2015 08:14:08 GMT',
+347 silly get     via: '1.1 varnish',
+347 silly get     age: '0',
+347 silly get     connection: 'keep-alive',
+347 silly get     'x-served-by': 'cache-lcy1129-LCY',
+347 silly get     'x-cache': 'HIT',
+347 silly get     'x-cache-hits': '1',
+347 silly get     'x-timer': 'S1435047248.744641,VS0,VE0',
+347 silly get     vary: 'Accept' } ]
+348 http 200 https://registry.npmjs.org/shelljs
+349 silly get cb [ 200,
+349 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+349 silly get     etag: '"EZONSXOR2AKRX9U6N29SLAR49"',
+349 silly get     'content-type': 'application/json',
+349 silly get     'cache-control': 'max-age=60',
+349 silly get     'content-length': '50721',
+349 silly get     'accept-ranges': 'bytes',
+349 silly get     date: 'Tue, 23 Jun 2015 08:14:08 GMT',
+349 silly get     via: '1.1 varnish',
+349 silly get     age: '10',
+349 silly get     connection: 'keep-alive',
+349 silly get     'x-served-by': 'cache-lcy1132-LCY',
+349 silly get     'x-cache': 'HIT',
+349 silly get     'x-cache-hits': '1',
+349 silly get     'x-timer': 'S1435047248.712346,VS0,VE0',
+349 silly get     vary: 'Accept' } ]
+350 http 200 https://registry.npmjs.org/shelljs
+351 silly get cb [ 200,
+351 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+351 silly get     etag: '"EZONSXOR2AKRX9U6N29SLAR49"',
+351 silly get     'content-type': 'application/json',
+351 silly get     'cache-control': 'max-age=60',
+351 silly get     'content-length': '50721',
+351 silly get     'accept-ranges': 'bytes',
+351 silly get     date: 'Tue, 23 Jun 2015 08:14:08 GMT',
+351 silly get     via: '1.1 varnish',
+351 silly get     age: '10',
+351 silly get     connection: 'keep-alive',
+351 silly get     'x-served-by': 'cache-lcy1123-LCY',
+351 silly get     'x-cache': 'HIT',
+351 silly get     'x-cache-hits': '2',
+351 silly get     'x-timer': 'S1435047248.847772,VS0,VE0',
+351 silly get     vary: 'Accept' } ]
+352 http 304 https://registry.npmjs.org/optimist
+353 silly get cb [ 304,
+353 silly get   { date: 'Tue, 23 Jun 2015 08:14:08 GMT',
+353 silly get     via: '1.1 varnish',
+353 silly get     'cache-control': 'max-age=60',
+353 silly get     etag: '"A8T22G2NKW7BNN2VBLXJ3SP7H"',
+353 silly get     age: '11',
+353 silly get     connection: 'keep-alive',
+353 silly get     'x-served-by': 'cache-lcy1132-LCY',
+353 silly get     'x-cache': 'HIT',
+353 silly get     'x-cache-hits': '2',
+353 silly get     'x-timer': 'S1435047248.939592,VS0,VE0',
+353 silly get     vary: 'Accept' } ]
+354 verbose etag https://registry.npmjs.org/optimist from cache
+355 http 200 https://registry.npmjs.org/qrcode-terminal
+356 silly get cb [ 200,
+356 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+356 silly get     etag: '"BWCDVQOLAAXSPN0V4L7M1X0C"',
+356 silly get     'content-type': 'application/json',
+356 silly get     'cache-control': 'max-age=60',
+356 silly get     'content-length': '20747',
+356 silly get     'accept-ranges': 'bytes',
+356 silly get     date: 'Tue, 23 Jun 2015 08:14:09 GMT',
+356 silly get     via: '1.1 varnish',
+356 silly get     age: '0',
+356 silly get     connection: 'keep-alive',
+356 silly get     'x-served-by': 'cache-lcy1129-LCY',
+356 silly get     'x-cache': 'HIT',
+356 silly get     'x-cache-hits': '1',
+356 silly get     'x-timer': 'S1435047248.885803,VS0,VE162',
+356 silly get     vary: 'Accept' } ]
+357 http 200 https://registry.npmjs.org/qrcode-terminal
+358 silly get cb [ 200,
+358 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+358 silly get     etag: '"BWCDVQOLAAXSPN0V4L7M1X0C"',
+358 silly get     'content-type': 'application/json',
+358 silly get     'cache-control': 'max-age=60',
+358 silly get     'content-length': '20747',
+358 silly get     'accept-ranges': 'bytes',
+358 silly get     date: 'Tue, 23 Jun 2015 08:14:09 GMT',
+358 silly get     via: '1.1 varnish',
+358 silly get     age: '0',
+358 silly get     connection: 'keep-alive',
+358 silly get     'x-served-by': 'cache-lcy1124-LCY',
+358 silly get     'x-cache': 'HIT',
+358 silly get     'x-cache-hits': '1',
+358 silly get     'x-timer': 'S1435047248.671811,VS0,VE376',
+358 silly get     vary: 'Accept' } ]
+359 http 304 https://registry.npmjs.org/phonegap-build-api
+360 silly get cb [ 304,
+360 silly get   { date: 'Tue, 23 Jun 2015 08:14:09 GMT',
+360 silly get     via: '1.1 varnish',
+360 silly get     'cache-control': 'max-age=60',
+360 silly get     etag: '"CNVMHW9JN0SUM234RW7A2HD38"',
+360 silly get     age: '0',
+360 silly get     connection: 'keep-alive',
+360 silly get     'x-served-by': 'cache-lcy1123-LCY',
+360 silly get     'x-cache': 'HIT',
+360 silly get     'x-cache-hits': '1',
+360 silly get     'x-timer': 'S1435047249.006754,VS0,VE166',
+360 silly get     vary: 'Accept' } ]
+361 verbose etag https://registry.npmjs.org/phonegap-build-api from cache
+362 http 304 https://registry.npmjs.org/archiver
+363 silly get cb [ 304,
+363 silly get   { date: 'Tue, 23 Jun 2015 08:14:09 GMT',
+363 silly get     via: '1.1 varnish',
+363 silly get     'cache-control': 'max-age=60',
+363 silly get     etag: '"8697A6I18YHSBDIU880I43SBS"',
+363 silly get     age: '0',
+363 silly get     connection: 'keep-alive',
+363 silly get     'x-served-by': 'cache-lcy1132-LCY',
+363 silly get     'x-cache': 'HIT',
+363 silly get     'x-cache-hits': '1',
+363 silly get     'x-timer': 'S1435047249.013091,VS0,VE167',
+363 silly get     vary: 'Accept' } ]
+364 verbose etag https://registry.npmjs.org/archiver from cache
+365 silly mapToRegistry name request
+366 silly mapToRegistry using default registry
+367 silly mapToRegistry registry https://registry.npmjs.org/
+368 silly mapToRegistry uri https://registry.npmjs.org/request
+369 verbose request uri https://registry.npmjs.org/request
+370 verbose request no auth needed
+371 info attempt registry request try #1 at 11:14:10
+372 verbose etag "DLJPEJ8VCD14OC2FCSLLCFDII"
+373 http request GET https://registry.npmjs.org/request
+374 http 304 https://registry.npmjs.org/gaze
+375 silly get cb [ 304,
+375 silly get   { date: 'Tue, 23 Jun 2015 08:14:09 GMT',
+375 silly get     via: '1.1 varnish',
+375 silly get     'cache-control': 'max-age=60',
+375 silly get     etag: '"73G901TXN8KGRTEFWTUSJB72M"',
+375 silly get     age: '47',
+375 silly get     connection: 'keep-alive',
+375 silly get     'x-served-by': 'cache-lcy1132-LCY',
+375 silly get     'x-cache': 'HIT',
+375 silly get     'x-cache-hits': '3',
+375 silly get     'x-timer': 'S1435047249.249724,VS0,VE0',
+375 silly get     vary: 'Accept' } ]
+376 verbose etag https://registry.npmjs.org/gaze from cache
+377 http 304 https://registry.npmjs.org/connect-inject
+378 silly get cb [ 304,
+378 silly get   { date: 'Tue, 23 Jun 2015 08:14:09 GMT',
+378 silly get     via: '1.1 varnish',
+378 silly get     'cache-control': 'max-age=60',
+378 silly get     etag: '"5555VW4UWDFU5SKLK6BOQ0RPI"',
+378 silly get     age: '0',
+378 silly get     connection: 'keep-alive',
+378 silly get     'x-served-by': 'cache-lcy1124-LCY',
+378 silly get     'x-cache': 'MISS',
+378 silly get     'x-cache-hits': '0',
+378 silly get     'x-timer': 'S1435047249.182820,VS0,VE87',
+378 silly get     vary: 'Accept' } ]
+379 verbose etag https://registry.npmjs.org/connect-inject from cache
+380 http 304 https://registry.npmjs.org/http-proxy
+381 silly get cb [ 304,
+381 silly get   { date: 'Tue, 23 Jun 2015 08:14:09 GMT',
+381 silly get     via: '1.1 varnish',
+381 silly get     'cache-control': 'max-age=60',
+381 silly get     etag: '"8XRUIARULYZGRVSUCHBBCXOKK"',
+381 silly get     age: '41',
+381 silly get     connection: 'keep-alive',
+381 silly get     'x-served-by': 'cache-lcy1132-LCY',
+381 silly get     'x-cache': 'HIT',
+381 silly get     'x-cache-hits': '1',
+381 silly get     'x-timer': 'S1435047249.319853,VS0,VE0',
+381 silly get     vary: 'Accept' } ]
+382 verbose etag https://registry.npmjs.org/http-proxy from cache
+383 http 304 https://registry.npmjs.org/home-dir
+384 silly get cb [ 304,
+384 silly get   { date: 'Tue, 23 Jun 2015 08:14:09 GMT',
+384 silly get     via: '1.1 varnish',
+384 silly get     'cache-control': 'max-age=60',
+384 silly get     etag: '"BUKZVIPOFXIHQPM5UL6N8LHVG"',
+384 silly get     age: '0',
+384 silly get     connection: 'keep-alive',
+384 silly get     'x-served-by': 'cache-lcy1123-LCY',
+384 silly get     'x-cache': 'MISS',
+384 silly get     'x-cache-hits': '0',
+384 silly get     'x-timer': 'S1435047249.248491,VS0,VE95',
+384 silly get     vary: 'Accept' } ]
+385 verbose etag https://registry.npmjs.org/home-dir from cache
+386 http 304 https://registry.npmjs.org/localtunnel
+387 silly get cb [ 304,
+387 silly get   { date: 'Tue, 23 Jun 2015 08:14:09 GMT',
+387 silly get     via: '1.1 varnish',
+387 silly get     'cache-control': 'max-age=60',
+387 silly get     etag: '"XVYQCF5T1RB05J7AV0ZAIXZV"',
+387 silly get     age: '26',
+387 silly get     connection: 'keep-alive',
+387 silly get     'x-served-by': 'cache-lcy1132-LCY',
+387 silly get     'x-cache': 'HIT',
+387 silly get     'x-cache-hits': '1',
+387 silly get     'x-timer': 'S1435047249.390604,VS0,VE0',
+387 silly get     vary: 'Accept' } ]
+388 verbose etag https://registry.npmjs.org/localtunnel from cache
+389 http 200 https://registry.npmjs.org/shelljs
+390 silly get cb [ 200,
+390 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+390 silly get     etag: '"EZONSXOR2AKRX9U6N29SLAR49"',
+390 silly get     'content-type': 'application/json',
+390 silly get     'cache-control': 'max-age=60',
+390 silly get     'content-length': '50721',
+390 silly get     'accept-ranges': 'bytes',
+390 silly get     date: 'Tue, 23 Jun 2015 08:14:09 GMT',
+390 silly get     via: '1.1 varnish',
+390 silly get     age: '10',
+390 silly get     connection: 'keep-alive',
+390 silly get     'x-served-by': 'cache-lcy1123-LCY',
+390 silly get     'x-cache': 'HIT',
+390 silly get     'x-cache-hits': '3',
+390 silly get     'x-timer': 'S1435047249.415495,VS0,VE0',
+390 silly get     vary: 'Accept' } ]
+391 http 304 https://registry.npmjs.org/ip
+392 silly get cb [ 304,
+392 silly get   { date: 'Tue, 23 Jun 2015 08:14:09 GMT',
+392 silly get     via: '1.1 varnish',
+392 silly get     'cache-control': 'max-age=60',
+392 silly get     etag: '"2CPEK6B74CEVLLFG2E792DIY5"',
+392 silly get     age: '0',
+392 silly get     connection: 'keep-alive',
+392 silly get     'x-served-by': 'cache-lcy1124-LCY',
+392 silly get     'x-cache': 'HIT',
+392 silly get     'x-cache-hits': '1',
+392 silly get     'x-timer': 'S1435047249.336575,VS0,VE169',
+392 silly get     vary: 'Accept' } ]
+393 verbose etag https://registry.npmjs.org/ip from cache
+394 http 304 https://registry.npmjs.org/request-progress
+395 silly get cb [ 304,
+395 silly get   { date: 'Tue, 23 Jun 2015 08:14:09 GMT',
+395 silly get     via: '1.1 varnish',
+395 silly get     'cache-control': 'max-age=60',
+395 silly get     etag: '"45Z3LXVQC1VF2WIHD73CKTE0J"',
+395 silly get     age: '31',
+395 silly get     connection: 'keep-alive',
+395 silly get     'x-served-by': 'cache-lcy1124-LCY',
+395 silly get     'x-cache': 'HIT',
+395 silly get     'x-cache-hits': '2',
+395 silly get     'x-timer': 'S1435047249.581560,VS0,VE0',
+395 silly get     vary: 'Accept' } ]
+396 verbose etag https://registry.npmjs.org/request-progress from cache
+397 http 200 https://registry.npmjs.org/connect
+398 silly get cb [ 200,
+398 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+398 silly get     etag: '"E6W74MA2F8LX8NPR5CK5ZF457"',
+398 silly get     'content-type': 'application/json',
+398 silly get     'cache-control': 'max-age=60',
+398 silly get     'content-length': '326727',
+398 silly get     'accept-ranges': 'bytes',
+398 silly get     date: 'Tue, 23 Jun 2015 08:14:09 GMT',
+398 silly get     via: '1.1 varnish',
+398 silly get     age: '26',
+398 silly get     connection: 'keep-alive',
+398 silly get     'x-served-by': 'cache-lcy1129-LCY',
+398 silly get     'x-cache': 'HIT',
+398 silly get     'x-cache-hits': '1',
+398 silly get     'x-timer': 'S1435047249.130396,VS0,VE1',
+398 silly get     vary: 'Accept' } ]
+399 silly mapToRegistry name throttleit
+400 silly mapToRegistry using default registry
+401 silly mapToRegistry registry https://registry.npmjs.org/
+402 silly mapToRegistry uri https://registry.npmjs.org/throttleit
+403 verbose request uri https://registry.npmjs.org/throttleit
+404 verbose request no auth needed
+405 info attempt registry request try #1 at 11:14:10
+406 verbose etag "UMK4VPH5LL1TEYXMN61ZEAGL"
+407 http request GET https://registry.npmjs.org/throttleit
+408 http 200 https://registry.npmjs.org/tar
+409 silly get cb [ 200,
+409 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+409 silly get     etag: '"6HXKK39T56E3FFB6H0ZJK35HU"',
+409 silly get     'content-type': 'application/json',
+409 silly get     'cache-control': 'max-age=60',
+409 silly get     'content-length': '27960',
+409 silly get     'accept-ranges': 'bytes',
+409 silly get     date: 'Tue, 23 Jun 2015 08:14:09 GMT',
+409 silly get     via: '1.1 varnish',
+409 silly get     age: '50',
+409 silly get     connection: 'keep-alive',
+409 silly get     'x-served-by': 'cache-lcy1129-LCY',
+409 silly get     'x-cache': 'HIT',
+409 silly get     'x-cache-hits': '1',
+409 silly get     'x-timer': 'S1435047249.658651,VS0,VE0',
+409 silly get     vary: 'Accept' } ]
+410 http 200 https://registry.npmjs.org/request
+411 silly get cb [ 200,
+411 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+411 silly get     etag: '"2D5XOEJ05TOWS0SMHNBYXYU9J"',
+411 silly get     'content-type': 'application/json',
+411 silly get     'cache-control': 'max-age=60',
+411 silly get     'content-length': '155202',
+411 silly get     'accept-ranges': 'bytes',
+411 silly get     date: 'Tue, 23 Jun 2015 08:14:09 GMT',
+411 silly get     via: '1.1 varnish',
+411 silly get     age: '40',
+411 silly get     connection: 'keep-alive',
+411 silly get     'x-served-by': 'cache-lcy1132-LCY',
+411 silly get     'x-cache': 'HIT',
+411 silly get     'x-cache-hits': '4',
+411 silly get     'x-timer': 'S1435047249.460091,VS0,VE0',
+411 silly get     vary: 'Accept' } ]
+412 http 200 https://registry.npmjs.org/useragent
+413 silly get cb [ 200,
+413 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+413 silly get     etag: '"250DIO100AJC8VNUW277M81QY"',
+413 silly get     'content-type': 'application/json',
+413 silly get     'cache-control': 'max-age=60',
+413 silly get     'content-length': '51603',
+413 silly get     'accept-ranges': 'bytes',
+413 silly get     date: 'Tue, 23 Jun 2015 08:14:09 GMT',
+413 silly get     via: '1.1 varnish',
+413 silly get     age: '0',
+413 silly get     connection: 'keep-alive',
+413 silly get     'x-served-by': 'cache-lcy1129-LCY',
+413 silly get     'x-cache': 'HIT',
+413 silly get     'x-cache-hits': '1',
+413 silly get     'x-timer': 'S1435047249.741413,VS0,VE94',
+413 silly get     vary: 'Accept' } ]
+414 http 304 https://registry.npmjs.org/walkdir
+415 silly get cb [ 304,
+415 silly get   { date: 'Tue, 23 Jun 2015 08:14:09 GMT',
+415 silly get     via: '1.1 varnish',
+415 silly get     'cache-control': 'max-age=60',
+415 silly get     etag: '"BSD5N92DKPNN8C8Q0ZH0BDDKY"',
+415 silly get     age: '49',
+415 silly get     connection: 'keep-alive',
+415 silly get     'x-served-by': 'cache-lcy1132-LCY',
+415 silly get     'x-cache': 'HIT',
+415 silly get     'x-cache-hits': '1',
+415 silly get     'x-timer': 'S1435047249.838381,VS0,VE0',
+415 silly get     vary: 'Accept' } ]
+416 verbose etag https://registry.npmjs.org/walkdir from cache
+417 http 200 https://registry.npmjs.org/socket.io
+418 silly get cb [ 200,
+418 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+418 silly get     etag: '"BW7TKS81VFS3S1B4SFMG5JQ0O"',
+418 silly get     'content-type': 'application/json',
+418 silly get     'cache-control': 'max-age=60',
+418 silly get     'content-length': '111683',
+418 silly get     'accept-ranges': 'bytes',
+418 silly get     date: 'Tue, 23 Jun 2015 08:14:09 GMT',
+418 silly get     via: '1.1 varnish',
+418 silly get     age: '41',
+418 silly get     connection: 'keep-alive',
+418 silly get     'x-served-by': 'cache-lcy1124-LCY',
+418 silly get     'x-cache': 'HIT',
+418 silly get     'x-cache-hits': '1',
+418 silly get     'x-timer': 'S1435047249.653861,VS0,VE0',
+418 silly get     vary: 'Accept' } ]
+419 http 304 https://registry.npmjs.org/throttleit
+420 silly get cb [ 304,
+420 silly get   { date: 'Tue, 23 Jun 2015 08:14:09 GMT',
+420 silly get     via: '1.1 varnish',
+420 silly get     'cache-control': 'max-age=60',
+420 silly get     etag: '"UMK4VPH5LL1TEYXMN61ZEAGL"',
+420 silly get     age: '39',
+420 silly get     connection: 'keep-alive',
+420 silly get     'x-served-by': 'cache-lcy1132-LCY',
+420 silly get     'x-cache': 'HIT',
+420 silly get     'x-cache-hits': '3',
+420 silly get     'x-timer': 'S1435047249.927153,VS0,VE0',
+420 silly get     vary: 'Accept' } ]
+421 verbose etag https://registry.npmjs.org/throttleit from cache
+422 http 304 https://registry.npmjs.org/node-static
+423 silly get cb [ 304,
+423 silly get   { date: 'Tue, 23 Jun 2015 08:14:09 GMT',
+423 silly get     via: '1.1 varnish',
+423 silly get     'cache-control': 'max-age=60',
+423 silly get     etag: '"6CIN053Y4D6JI3CIC17GOR2GI"',
+423 silly get     age: '0',
+423 silly get     connection: 'keep-alive',
+423 silly get     'x-served-by': 'cache-lcy1123-LCY',
+423 silly get     'x-cache': 'HIT',
+423 silly get     'x-cache-hits': '1',
+423 silly get     'x-timer': 'S1435047249.561598,VS0,VE386',
+423 silly get     vary: 'Accept' } ]
+424 verbose etag https://registry.npmjs.org/node-static from cache
+425 http 200 https://registry.npmjs.org/npm
+426 silly get cb [ 200,
+426 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+426 silly get     etag: '"NC91DC7X7ZAQG4PB1928J53H"',
+426 silly get     'content-type': 'application/json',
+426 silly get     'cache-control': 'max-age=60',
+426 silly get     'content-length': '2553648',
+426 silly get     'accept-ranges': 'bytes',
+426 silly get     date: 'Tue, 23 Jun 2015 08:14:06 GMT',
+426 silly get     via: '1.1 varnish',
+426 silly get     age: '56',
+426 silly get     connection: 'keep-alive',
+426 silly get     'x-served-by': 'cache-lcy1128-LCY',
+426 silly get     'x-cache': 'HIT',
+426 silly get     'x-cache-hits': '1',
+426 silly get     'x-timer': 'S1435047246.656455,VS0,VE10',
+426 silly get     vary: 'Accept' } ]
+427 http 200 https://registry.npmjs.org/request
+428 silly get cb [ 200,
+428 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+428 silly get     etag: '"2D5XOEJ05TOWS0SMHNBYXYU9J"',
+428 silly get     'content-type': 'application/json',
+428 silly get     'cache-control': 'max-age=60',
+428 silly get     'content-length': '155202',
+428 silly get     'accept-ranges': 'bytes',
+428 silly get     date: 'Tue, 23 Jun 2015 08:14:09 GMT',
+428 silly get     via: '1.1 varnish',
+428 silly get     age: '40',
+428 silly get     connection: 'keep-alive',
+428 silly get     'x-served-by': 'cache-lcy1129-LCY',
+428 silly get     'x-cache': 'HIT',
+428 silly get     'x-cache-hits': '3',
+428 silly get     'x-timer': 'S1435047249.924147,VS0,VE0',
+428 silly get     vary: 'Accept' } ]
+429 info outdated updating [ [ '/usr/local/lib', 'cordova', '5.0.0', '5.1.1', '5.1.1', 'latest' ],
+429 info outdated   [ '/usr/local/lib', 'npm', '2.1.18', '2.11.3', '2.11.3', 'latest' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap',
+429 info outdated     'cordova',
+429 info outdated     '5.0.0',
+429 info outdated     '5.0.0',
+429 info outdated     '5.1.1',
+429 info outdated     '5.0.0' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap',
+429 info outdated     'colors',
+429 info outdated     '0.6.0-1',
+429 info outdated     '0.6.0-1',
+429 info outdated     '1.1.2',
+429 info outdated     '0.6.0-1' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap',
+429 info outdated     'minimist',
+429 info outdated     '0.1.0',
+429 info outdated     '0.1.0',
+429 info outdated     '1.1.1',
+429 info outdated     '0.1.0' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap',
+429 info outdated     'semver',
+429 info outdated     '1.1.0',
+429 info outdated     '1.1.0',
+429 info outdated     '4.3.6',
+429 info outdated     '1.1.0' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap',
+429 info outdated     'pluralize',
+429 info outdated     '0.0.4',
+429 info outdated     '0.0.4',
+429 info outdated     '1.1.2',
+429 info outdated     '0.0.4' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap',
+429 info outdated     'prompt',
+429 info outdated     '0.2.11',
+429 info outdated     '0.2.11',
+429 info outdated     '0.2.14',
+429 info outdated     '0.2.11' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap',
+429 info outdated     'shelljs',
+429 info outdated     '0.1.4',
+429 info outdated     '0.1.4',
+429 info outdated     '0.5.1',
+429 info outdated     '0.1.4' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap',
+429 info outdated     'qrcode-terminal',
+429 info outdated     '0.9.4',
+429 info outdated     '0.9.4',
+429 info outdated     '0.10.0',
+429 info outdated     '0.9.4' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap',
+429 info outdated     'archiver',
+429 info outdated     '0.14.3',
+429 info outdated     '0.14.3',
+429 info outdated     '0.14.4',
+429 info outdated     '0.14.3' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap',
+429 info outdated     'gaze',
+429 info outdated     '0.4.3',
+429 info outdated     '0.4.3',
+429 info outdated     '0.5.1',
+429 info outdated     '0.4.3' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap',
+429 info outdated     'http-proxy',
+429 info outdated     '1.8.1',
+429 info outdated     '1.8.1',
+429 info outdated     '1.11.1',
+429 info outdated     '1.8.1' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap',
+429 info outdated     'home-dir',
+429 info outdated     '0.1.2',
+429 info outdated     '0.1.2',
+429 info outdated     '1.0.0',
+429 info outdated     '0.1.2' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap',
+429 info outdated     'localtunnel',
+429 info outdated     '1.3.0',
+429 info outdated     '1.3.0',
+429 info outdated     '1.5.1',
+429 info outdated     '1.3.0' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap',
+429 info outdated     'shelljs',
+429 info outdated     '0.2.6',
+429 info outdated     '0.2.6',
+429 info outdated     '0.5.1',
+429 info outdated     '0.2.6' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap',
+429 info outdated     'ip',
+429 info outdated     '0.3.1',
+429 info outdated     '0.3.1',
+429 info outdated     '0.3.3',
+429 info outdated     '0.3.1' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap',
+429 info outdated     'connect',
+429 info outdated     '2.12.0',
+429 info outdated     '2.12.0',
+429 info outdated     '3.4.0',
+429 info outdated     '2.12.0' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap',
+429 info outdated     'tar',
+429 info outdated     '0.1.19',
+429 info outdated     '0.1.19',
+429 info outdated     '2.1.1',
+429 info outdated     '0.1.19' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap',
+429 info outdated     'request',
+429 info outdated     '2.33.0',
+429 info outdated     '2.33.0',
+429 info outdated     '2.58.0',
+429 info outdated     '2.33.0' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap',
+429 info outdated     'walkdir',
+429 info outdated     '0.0.8',
+429 info outdated     '0.0.8',
+429 info outdated     '0.0.9',
+429 info outdated     '0.0.8' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap',
+429 info outdated     'useragent',
+429 info outdated     '2.0.8',
+429 info outdated     '2.0.8',
+429 info outdated     '2.1.7',
+429 info outdated     '2.0.8' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap',
+429 info outdated     'socket.io',
+429 info outdated     '1.0.4',
+429 info outdated     '1.0.4',
+429 info outdated     '1.3.5',
+429 info outdated     '1.0.4' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap/node_modules/request-progress',
+429 info outdated     'throttleit',
+429 info outdated     '0.0.2',
+429 info outdated     '0.0.2',
+429 info outdated     '1.0.0',
+429 info outdated     '~0.0.2' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap',
+429 info outdated     'node-static',
+429 info outdated     '0.7.0',
+429 info outdated     '0.7.0',
+429 info outdated     '0.7.6',
+429 info outdated     '0.7.0' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap/node_modules/phonegap-build',
+429 info outdated     'colors',
+429 info outdated     '0.6.2',
+429 info outdated     '0.6.2',
+429 info outdated     '1.1.2',
+429 info outdated     '0.6.x' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap/node_modules/phonegap-build',
+429 info outdated     'prompt',
+429 info outdated     '0.2.11',
+429 info outdated     '0.2.14',
+429 info outdated     '0.2.14',
+429 info outdated     '0.2.x' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap/node_modules/phonegap-build',
+429 info outdated     'shelljs',
+429 info outdated     '0.0.9',
+429 info outdated     '0.0.9',
+429 info outdated     '0.5.1',
+429 info outdated     '0.0.x' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap/node_modules/phonegap-build',
+429 info outdated     'optimist',
+429 info outdated     '0.3.7',
+429 info outdated     '0.3.7',
+429 info outdated     '0.6.1',
+429 info outdated     '0.3.x' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap/node_modules/phonegap-build',
+429 info outdated     'qrcode-terminal',
+429 info outdated     '0.8.0',
+429 info outdated     '0.8.0',
+429 info outdated     '0.10.0',
+429 info outdated     '0.8.x' ],
+429 info outdated   [ '/usr/local/lib/node_modules/phonegap/node_modules/phonegap-build/node_modules/phonegap-build-api',
+429 info outdated     'request',
+429 info outdated     '2.11.4',
+429 info outdated     '2.11.4',
+429 info outdated     '2.58.0',
+429 info outdated     '2.11.x' ] ]
+430 verbose install where, what [ '/usr/local/lib', [ 'cordova@5.1.1' ] ]
+431 verbose install where, what [ '/usr/local/lib', [ 'npm@2.11.3' ] ]
+432 verbose install where, what [ '/usr/local/lib/node_modules/phonegap', [ 'cordova@5.0.0' ] ]
+433 verbose install where, what [ '/usr/local/lib/node_modules/phonegap', [ 'colors@0.6.0-1' ] ]
+434 verbose install where, what [ '/usr/local/lib/node_modules/phonegap', [ 'minimist@0.1.0' ] ]
+435 verbose install where, what [ '/usr/local/lib/node_modules/phonegap', [ 'semver@1.1.0' ] ]
+436 verbose install where, what [ '/usr/local/lib/node_modules/phonegap',
+436 verbose install   [ 'pluralize@0.0.4' ] ]
+437 verbose install where, what [ '/usr/local/lib/node_modules/phonegap', [ 'prompt@0.2.11' ] ]
+438 verbose install where, what [ '/usr/local/lib/node_modules/phonegap', [ 'shelljs@0.1.4' ] ]
+439 verbose install where, what [ '/usr/local/lib/node_modules/phonegap',
+439 verbose install   [ 'qrcode-terminal@0.9.4' ] ]
+440 verbose install where, what [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap',
+440 verbose install   [ 'archiver@0.14.3' ] ]
+441 verbose install where, what [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap',
+441 verbose install   [ 'gaze@0.4.3' ] ]
+442 verbose install where, what [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap',
+442 verbose install   [ 'http-proxy@1.8.1' ] ]
+443 verbose install where, what [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap',
+443 verbose install   [ 'home-dir@0.1.2' ] ]
+444 verbose install where, what [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap',
+444 verbose install   [ 'localtunnel@1.3.0' ] ]
+445 verbose install where, what [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap',
+445 verbose install   [ 'shelljs@0.2.6' ] ]
+446 verbose install where, what [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap',
+446 verbose install   [ 'ip@0.3.1' ] ]
+447 verbose install where, what [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap',
+447 verbose install   [ 'connect@2.12.0' ] ]
+448 verbose install where, what [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap',
+448 verbose install   [ 'tar@0.1.19' ] ]
+449 verbose install where, what [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap',
+449 verbose install   [ 'request@2.33.0' ] ]
+450 verbose install where, what [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap',
+450 verbose install   [ 'walkdir@0.0.8' ] ]
+451 verbose install where, what [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap',
+451 verbose install   [ 'useragent@2.0.8' ] ]
+452 verbose install where, what [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap',
+452 verbose install   [ 'socket.io@1.0.4' ] ]
+453 verbose install where, what [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap/node_modules/request-progress',
+453 verbose install   [ 'throttleit@0.0.2' ] ]
+454 verbose install where, what [ '/usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap',
+454 verbose install   [ 'node-static@0.7.0' ] ]
+455 verbose install where, what [ '/usr/local/lib/node_modules/phonegap/node_modules/phonegap-build',
+455 verbose install   [ 'colors@0.6.2' ] ]
+456 verbose install where, what [ '/usr/local/lib/node_modules/phonegap/node_modules/phonegap-build',
+456 verbose install   [ 'prompt@0.2.14' ] ]
+457 verbose install where, what [ '/usr/local/lib/node_modules/phonegap/node_modules/phonegap-build',
+457 verbose install   [ 'shelljs@0.0.9' ] ]
+458 verbose install where, what [ '/usr/local/lib/node_modules/phonegap/node_modules/phonegap-build',
+458 verbose install   [ 'optimist@0.3.7' ] ]
+459 verbose install where, what [ '/usr/local/lib/node_modules/phonegap/node_modules/phonegap-build',
+459 verbose install   [ 'qrcode-terminal@0.8.0' ] ]
+460 verbose install where, what [ '/usr/local/lib/node_modules/phonegap/node_modules/phonegap-build/node_modules/phonegap-build-api',
+460 verbose install   [ 'request@2.11.4' ] ]
+461 silly cache add args [ 'cordova@5.0.0', null ]
+462 verbose cache add spec cordova@5.0.0
+463 silly cache add parsed spec { raw: 'cordova@5.0.0',
+463 silly cache add   scope: null,
+463 silly cache add   name: 'cordova',
+463 silly cache add   rawSpec: '5.0.0',
+463 silly cache add   spec: '5.0.0',
+463 silly cache add   type: 'version' }
+464 verbose addNamed cordova@5.0.0
+465 silly addNamed semver.valid 5.0.0
+466 silly addNamed semver.validRange 5.0.0
+467 silly mapToRegistry name cordova
+468 silly mapToRegistry using default registry
+469 silly mapToRegistry registry https://registry.npmjs.org/
+470 silly mapToRegistry uri https://registry.npmjs.org/cordova
+471 verbose addNameVersion registry:https://registry.npmjs.org/cordova not in flight; fetching
+472 silly cache add args [ 'colors@0.6.0-1', null ]
+473 verbose cache add spec colors@0.6.0-1
+474 silly cache add parsed spec { raw: 'colors@0.6.0-1',
+474 silly cache add   scope: null,
+474 silly cache add   name: 'colors',
+474 silly cache add   rawSpec: '0.6.0-1',
+474 silly cache add   spec: '0.6.0-1',
+474 silly cache add   type: 'version' }
+475 verbose addNamed colors@0.6.0-1
+476 silly addNamed semver.valid 0.6.0-1
+477 silly addNamed semver.validRange 0.6.0-1
+478 silly mapToRegistry name colors
+479 silly mapToRegistry using default registry
+480 silly mapToRegistry registry https://registry.npmjs.org/
+481 silly mapToRegistry uri https://registry.npmjs.org/colors
+482 verbose addNameVersion registry:https://registry.npmjs.org/colors not in flight; fetching
+483 silly cache add args [ 'minimist@0.1.0', null ]
+484 verbose cache add spec minimist@0.1.0
+485 silly cache add parsed spec { raw: 'minimist@0.1.0',
+485 silly cache add   scope: null,
+485 silly cache add   name: 'minimist',
+485 silly cache add   rawSpec: '0.1.0',
+485 silly cache add   spec: '0.1.0',
+485 silly cache add   type: 'version' }
+486 verbose addNamed minimist@0.1.0
+487 silly addNamed semver.valid 0.1.0
+488 silly addNamed semver.validRange 0.1.0
+489 silly mapToRegistry name minimist
+490 silly mapToRegistry using default registry
+491 silly mapToRegistry registry https://registry.npmjs.org/
+492 silly mapToRegistry uri https://registry.npmjs.org/minimist
+493 verbose addNameVersion registry:https://registry.npmjs.org/minimist not in flight; fetching
+494 silly cache add args [ 'semver@1.1.0', null ]
+495 verbose cache add spec semver@1.1.0
+496 silly cache add parsed spec { raw: 'semver@1.1.0',
+496 silly cache add   scope: null,
+496 silly cache add   name: 'semver',
+496 silly cache add   rawSpec: '1.1.0',
+496 silly cache add   spec: '1.1.0',
+496 silly cache add   type: 'version' }
+497 verbose addNamed semver@1.1.0
+498 silly addNamed semver.valid 1.1.0
+499 silly addNamed semver.validRange 1.1.0
+500 silly mapToRegistry name semver
+501 silly mapToRegistry using default registry
+502 silly mapToRegistry registry https://registry.npmjs.org/
+503 silly mapToRegistry uri https://registry.npmjs.org/semver
+504 verbose addNameVersion registry:https://registry.npmjs.org/semver not in flight; fetching
+505 silly cache add args [ 'pluralize@0.0.4', null ]
+506 verbose cache add spec pluralize@0.0.4
+507 silly cache add parsed spec { raw: 'pluralize@0.0.4',
+507 silly cache add   scope: null,
+507 silly cache add   name: 'pluralize',
+507 silly cache add   rawSpec: '0.0.4',
+507 silly cache add   spec: '0.0.4',
+507 silly cache add   type: 'version' }
+508 verbose addNamed pluralize@0.0.4
+509 silly addNamed semver.valid 0.0.4
+510 silly addNamed semver.validRange 0.0.4
+511 silly mapToRegistry name pluralize
+512 silly mapToRegistry using default registry
+513 silly mapToRegistry registry https://registry.npmjs.org/
+514 silly mapToRegistry uri https://registry.npmjs.org/pluralize
+515 verbose addNameVersion registry:https://registry.npmjs.org/pluralize not in flight; fetching
+516 silly cache add args [ 'prompt@0.2.11', null ]
+517 verbose cache add spec prompt@0.2.11
+518 silly cache add parsed spec { raw: 'prompt@0.2.11',
+518 silly cache add   scope: null,
+518 silly cache add   name: 'prompt',
+518 silly cache add   rawSpec: '0.2.11',
+518 silly cache add   spec: '0.2.11',
+518 silly cache add   type: 'version' }
+519 verbose addNamed prompt@0.2.11
+520 silly addNamed semver.valid 0.2.11
+521 silly addNamed semver.validRange 0.2.11
+522 silly mapToRegistry name prompt
+523 silly mapToRegistry using default registry
+524 silly mapToRegistry registry https://registry.npmjs.org/
+525 silly mapToRegistry uri https://registry.npmjs.org/prompt
+526 verbose addNameVersion registry:https://registry.npmjs.org/prompt not in flight; fetching
+527 silly cache add args [ 'shelljs@0.1.4', null ]
+528 verbose cache add spec shelljs@0.1.4
+529 silly cache add parsed spec { raw: 'shelljs@0.1.4',
+529 silly cache add   scope: null,
+529 silly cache add   name: 'shelljs',
+529 silly cache add   rawSpec: '0.1.4',
+529 silly cache add   spec: '0.1.4',
+529 silly cache add   type: 'version' }
+530 verbose addNamed shelljs@0.1.4
+531 silly addNamed semver.valid 0.1.4
+532 silly addNamed semver.validRange 0.1.4
+533 silly mapToRegistry name shelljs
+534 silly mapToRegistry using default registry
+535 silly mapToRegistry registry https://registry.npmjs.org/
+536 silly mapToRegistry uri https://registry.npmjs.org/shelljs
+537 verbose addNameVersion registry:https://registry.npmjs.org/shelljs not in flight; fetching
+538 silly cache add args [ 'qrcode-terminal@0.9.4', null ]
+539 verbose cache add spec qrcode-terminal@0.9.4
+540 silly cache add parsed spec { raw: 'qrcode-terminal@0.9.4',
+540 silly cache add   scope: null,
+540 silly cache add   name: 'qrcode-terminal',
+540 silly cache add   rawSpec: '0.9.4',
+540 silly cache add   spec: '0.9.4',
+540 silly cache add   type: 'version' }
+541 verbose addNamed qrcode-terminal@0.9.4
+542 silly addNamed semver.valid 0.9.4
+543 silly addNamed semver.validRange 0.9.4
+544 silly mapToRegistry name qrcode-terminal
+545 silly mapToRegistry using default registry
+546 silly mapToRegistry registry https://registry.npmjs.org/
+547 silly mapToRegistry uri https://registry.npmjs.org/qrcode-terminal
+548 verbose addNameVersion registry:https://registry.npmjs.org/qrcode-terminal not in flight; fetching
+549 silly cache add args [ 'archiver@0.14.3', null ]
+550 verbose cache add spec archiver@0.14.3
+551 silly cache add parsed spec { raw: 'archiver@0.14.3',
+551 silly cache add   scope: null,
+551 silly cache add   name: 'archiver',
+551 silly cache add   rawSpec: '0.14.3',
+551 silly cache add   spec: '0.14.3',
+551 silly cache add   type: 'version' }
+552 verbose addNamed archiver@0.14.3
+553 silly addNamed semver.valid 0.14.3
+554 silly addNamed semver.validRange 0.14.3
+555 silly mapToRegistry name archiver
+556 silly mapToRegistry using default registry
+557 silly mapToRegistry registry https://registry.npmjs.org/
+558 silly mapToRegistry uri https://registry.npmjs.org/archiver
+559 verbose addNameVersion registry:https://registry.npmjs.org/archiver not in flight; fetching
+560 silly cache add args [ 'gaze@0.4.3', null ]
+561 verbose cache add spec gaze@0.4.3
+562 silly cache add parsed spec { raw: 'gaze@0.4.3',
+562 silly cache add   scope: null,
+562 silly cache add   name: 'gaze',
+562 silly cache add   rawSpec: '0.4.3',
+562 silly cache add   spec: '0.4.3',
+562 silly cache add   type: 'version' }
+563 verbose addNamed gaze@0.4.3
+564 silly addNamed semver.valid 0.4.3
+565 silly addNamed semver.validRange 0.4.3
+566 silly mapToRegistry name gaze
+567 silly mapToRegistry using default registry
+568 silly mapToRegistry registry https://registry.npmjs.org/
+569 silly mapToRegistry uri https://registry.npmjs.org/gaze
+570 verbose addNameVersion registry:https://registry.npmjs.org/gaze not in flight; fetching
+571 silly cache add args [ 'http-proxy@1.8.1', null ]
+572 verbose cache add spec http-proxy@1.8.1
+573 silly cache add parsed spec { raw: 'http-proxy@1.8.1',
+573 silly cache add   scope: null,
+573 silly cache add   name: 'http-proxy',
+573 silly cache add   rawSpec: '1.8.1',
+573 silly cache add   spec: '1.8.1',
+573 silly cache add   type: 'version' }
+574 verbose addNamed http-proxy@1.8.1
+575 silly addNamed semver.valid 1.8.1
+576 silly addNamed semver.validRange 1.8.1
+577 silly mapToRegistry name http-proxy
+578 silly mapToRegistry using default registry
+579 silly mapToRegistry registry https://registry.npmjs.org/
+580 silly mapToRegistry uri https://registry.npmjs.org/http-proxy
+581 verbose addNameVersion registry:https://registry.npmjs.org/http-proxy not in flight; fetching
+582 silly cache add args [ 'home-dir@0.1.2', null ]
+583 verbose cache add spec home-dir@0.1.2
+584 silly cache add parsed spec { raw: 'home-dir@0.1.2',
+584 silly cache add   scope: null,
+584 silly cache add   name: 'home-dir',
+584 silly cache add   rawSpec: '0.1.2',
+584 silly cache add   spec: '0.1.2',
+584 silly cache add   type: 'version' }
+585 verbose addNamed home-dir@0.1.2
+586 silly addNamed semver.valid 0.1.2
+587 silly addNamed semver.validRange 0.1.2
+588 silly mapToRegistry name home-dir
+589 silly mapToRegistry using default registry
+590 silly mapToRegistry registry https://registry.npmjs.org/
+591 silly mapToRegistry uri https://registry.npmjs.org/home-dir
+592 verbose addNameVersion registry:https://registry.npmjs.org/home-dir not in flight; fetching
+593 silly cache add args [ 'localtunnel@1.3.0', null ]
+594 verbose cache add spec localtunnel@1.3.0
+595 silly cache add parsed spec { raw: 'localtunnel@1.3.0',
+595 silly cache add   scope: null,
+595 silly cache add   name: 'localtunnel',
+595 silly cache add   rawSpec: '1.3.0',
+595 silly cache add   spec: '1.3.0',
+595 silly cache add   type: 'version' }
+596 verbose addNamed localtunnel@1.3.0
+597 silly addNamed semver.valid 1.3.0
+598 silly addNamed semver.validRange 1.3.0
+599 silly mapToRegistry name localtunnel
+600 silly mapToRegistry using default registry
+601 silly mapToRegistry registry https://registry.npmjs.org/
+602 silly mapToRegistry uri https://registry.npmjs.org/localtunnel
+603 verbose addNameVersion registry:https://registry.npmjs.org/localtunnel not in flight; fetching
+604 silly cache add args [ 'shelljs@0.2.6', null ]
+605 verbose cache add spec shelljs@0.2.6
+606 silly cache add parsed spec { raw: 'shelljs@0.2.6',
+606 silly cache add   scope: null,
+606 silly cache add   name: 'shelljs',
+606 silly cache add   rawSpec: '0.2.6',
+606 silly cache add   spec: '0.2.6',
+606 silly cache add   type: 'version' }
+607 verbose addNamed shelljs@0.2.6
+608 silly addNamed semver.valid 0.2.6
+609 silly addNamed semver.validRange 0.2.6
+610 silly mapToRegistry name shelljs
+611 silly mapToRegistry using default registry
+612 silly mapToRegistry registry https://registry.npmjs.org/
+613 silly mapToRegistry uri https://registry.npmjs.org/shelljs
+614 verbose addNameVersion registry:https://registry.npmjs.org/shelljs already in flight; waiting
+615 silly cache add args [ 'ip@0.3.1', null ]
+616 verbose cache add spec ip@0.3.1
+617 silly cache add parsed spec { raw: 'ip@0.3.1',
+617 silly cache add   scope: null,
+617 silly cache add   name: 'ip',
+617 silly cache add   rawSpec: '0.3.1',
+617 silly cache add   spec: '0.3.1',
+617 silly cache add   type: 'version' }
+618 verbose addNamed ip@0.3.1
+619 silly addNamed semver.valid 0.3.1
+620 silly addNamed semver.validRange 0.3.1
+621 silly mapToRegistry name ip
+622 silly mapToRegistry using default registry
+623 silly mapToRegistry registry https://registry.npmjs.org/
+624 silly mapToRegistry uri https://registry.npmjs.org/ip
+625 verbose addNameVersion registry:https://registry.npmjs.org/ip not in flight; fetching
+626 silly cache add args [ 'connect@2.12.0', null ]
+627 verbose cache add spec connect@2.12.0
+628 silly cache add parsed spec { raw: 'connect@2.12.0',
+628 silly cache add   scope: null,
+628 silly cache add   name: 'connect',
+628 silly cache add   rawSpec: '2.12.0',
+628 silly cache add   spec: '2.12.0',
+628 silly cache add   type: 'version' }
+629 verbose addNamed connect@2.12.0
+630 silly addNamed semver.valid 2.12.0
+631 silly addNamed semver.validRange 2.12.0
+632 silly mapToRegistry name connect
+633 silly mapToRegistry using default registry
+634 silly mapToRegistry registry https://registry.npmjs.org/
+635 silly mapToRegistry uri https://registry.npmjs.org/connect
+636 verbose addNameVersion registry:https://registry.npmjs.org/connect not in flight; fetching
+637 silly cache add args [ 'tar@0.1.19', null ]
+638 verbose cache add spec tar@0.1.19
+639 silly cache add parsed spec { raw: 'tar@0.1.19',
+639 silly cache add   scope: null,
+639 silly cache add   name: 'tar',
+639 silly cache add   rawSpec: '0.1.19',
+639 silly cache add   spec: '0.1.19',
+639 silly cache add   type: 'version' }
+640 verbose addNamed tar@0.1.19
+641 silly addNamed semver.valid 0.1.19
+642 silly addNamed semver.validRange 0.1.19
+643 silly mapToRegistry name tar
+644 silly mapToRegistry using default registry
+645 silly mapToRegistry registry https://registry.npmjs.org/
+646 silly mapToRegistry uri https://registry.npmjs.org/tar
+647 verbose addNameVersion registry:https://registry.npmjs.org/tar not in flight; fetching
+648 silly cache add args [ 'request@2.33.0', null ]
+649 verbose cache add spec request@2.33.0
+650 silly cache add parsed spec { raw: 'request@2.33.0',
+650 silly cache add   scope: null,
+650 silly cache add   name: 'request',
+650 silly cache add   rawSpec: '2.33.0',
+650 silly cache add   spec: '2.33.0',
+650 silly cache add   type: 'version' }
+651 verbose addNamed request@2.33.0
+652 silly addNamed semver.valid 2.33.0
+653 silly addNamed semver.validRange 2.33.0
+654 silly mapToRegistry name request
+655 silly mapToRegistry using default registry
+656 silly mapToRegistry registry https://registry.npmjs.org/
+657 silly mapToRegistry uri https://registry.npmjs.org/request
+658 verbose addNameVersion registry:https://registry.npmjs.org/request not in flight; fetching
+659 silly cache add args [ 'walkdir@0.0.8', null ]
+660 verbose cache add spec walkdir@0.0.8
+661 silly cache add parsed spec { raw: 'walkdir@0.0.8',
+661 silly cache add   scope: null,
+661 silly cache add   name: 'walkdir',
+661 silly cache add   rawSpec: '0.0.8',
+661 silly cache add   spec: '0.0.8',
+661 silly cache add   type: 'version' }
+662 verbose addNamed walkdir@0.0.8
+663 silly addNamed semver.valid 0.0.8
+664 silly addNamed semver.validRange 0.0.8
+665 silly mapToRegistry name walkdir
+666 silly mapToRegistry using default registry
+667 silly mapToRegistry registry https://registry.npmjs.org/
+668 silly mapToRegistry uri https://registry.npmjs.org/walkdir
+669 verbose addNameVersion registry:https://registry.npmjs.org/walkdir not in flight; fetching
+670 silly cache add args [ 'useragent@2.0.8', null ]
+671 verbose cache add spec useragent@2.0.8
+672 silly cache add parsed spec { raw: 'useragent@2.0.8',
+672 silly cache add   scope: null,
+672 silly cache add   name: 'useragent',
+672 silly cache add   rawSpec: '2.0.8',
+672 silly cache add   spec: '2.0.8',
+672 silly cache add   type: 'version' }
+673 verbose addNamed useragent@2.0.8
+674 silly addNamed semver.valid 2.0.8
+675 silly addNamed semver.validRange 2.0.8
+676 silly mapToRegistry name useragent
+677 silly mapToRegistry using default registry
+678 silly mapToRegistry registry https://registry.npmjs.org/
+679 silly mapToRegistry uri https://registry.npmjs.org/useragent
+680 verbose addNameVersion registry:https://registry.npmjs.org/useragent not in flight; fetching
+681 silly cache add args [ 'socket.io@1.0.4', null ]
+682 verbose cache add spec socket.io@1.0.4
+683 silly cache add parsed spec { raw: 'socket.io@1.0.4',
+683 silly cache add   scope: null,
+683 silly cache add   name: 'socket.io',
+683 silly cache add   rawSpec: '1.0.4',
+683 silly cache add   spec: '1.0.4',
+683 silly cache add   type: 'version' }
+684 verbose addNamed socket.io@1.0.4
+685 silly addNamed semver.valid 1.0.4
+686 silly addNamed semver.validRange 1.0.4
+687 silly mapToRegistry name socket.io
+688 silly mapToRegistry using default registry
+689 silly mapToRegistry registry https://registry.npmjs.org/
+690 silly mapToRegistry uri https://registry.npmjs.org/socket.io
+691 verbose addNameVersion registry:https://registry.npmjs.org/socket.io not in flight; fetching
+692 silly cache add args [ 'throttleit@0.0.2', null ]
+693 verbose cache add spec throttleit@0.0.2
+694 silly cache add parsed spec { raw: 'throttleit@0.0.2',
+694 silly cache add   scope: null,
+694 silly cache add   name: 'throttleit',
+694 silly cache add   rawSpec: '0.0.2',
+694 silly cache add   spec: '0.0.2',
+694 silly cache add   type: 'version' }
+695 verbose addNamed throttleit@0.0.2
+696 silly addNamed semver.valid 0.0.2
+697 silly addNamed semver.validRange 0.0.2
+698 silly mapToRegistry name throttleit
+699 silly mapToRegistry using default registry
+700 silly mapToRegistry registry https://registry.npmjs.org/
+701 silly mapToRegistry uri https://registry.npmjs.org/throttleit
+702 verbose addNameVersion registry:https://registry.npmjs.org/throttleit not in flight; fetching
+703 silly cache add args [ 'node-static@0.7.0', null ]
+704 verbose cache add spec node-static@0.7.0
+705 silly cache add parsed spec { raw: 'node-static@0.7.0',
+705 silly cache add   scope: null,
+705 silly cache add   name: 'node-static',
+705 silly cache add   rawSpec: '0.7.0',
+705 silly cache add   spec: '0.7.0',
+705 silly cache add   type: 'version' }
+706 verbose addNamed node-static@0.7.0
+707 silly addNamed semver.valid 0.7.0
+708 silly addNamed semver.validRange 0.7.0
+709 silly mapToRegistry name node-static
+710 silly mapToRegistry using default registry
+711 silly mapToRegistry registry https://registry.npmjs.org/
+712 silly mapToRegistry uri https://registry.npmjs.org/node-static
+713 verbose addNameVersion registry:https://registry.npmjs.org/node-static not in flight; fetching
+714 silly cache add args [ 'colors@0.6.2', null ]
+715 verbose cache add spec colors@0.6.2
+716 silly cache add parsed spec { raw: 'colors@0.6.2',
+716 silly cache add   scope: null,
+716 silly cache add   name: 'colors',
+716 silly cache add   rawSpec: '0.6.2',
+716 silly cache add   spec: '0.6.2',
+716 silly cache add   type: 'version' }
+717 verbose addNamed colors@0.6.2
+718 silly addNamed semver.valid 0.6.2
+719 silly addNamed semver.validRange 0.6.2
+720 silly mapToRegistry name colors
+721 silly mapToRegistry using default registry
+722 silly mapToRegistry registry https://registry.npmjs.org/
+723 silly mapToRegistry uri https://registry.npmjs.org/colors
+724 verbose addNameVersion registry:https://registry.npmjs.org/colors already in flight; waiting
+725 silly cache add args [ 'prompt@0.2.14', null ]
+726 verbose cache add spec prompt@0.2.14
+727 silly cache add parsed spec { raw: 'prompt@0.2.14',
+727 silly cache add   scope: null,
+727 silly cache add   name: 'prompt',
+727 silly cache add   rawSpec: '0.2.14',
+727 silly cache add   spec: '0.2.14',
+727 silly cache add   type: 'version' }
+728 verbose addNamed prompt@0.2.14
+729 silly addNamed semver.valid 0.2.14
+730 silly addNamed semver.validRange 0.2.14
+731 silly mapToRegistry name prompt
+732 silly mapToRegistry using default registry
+733 silly mapToRegistry registry https://registry.npmjs.org/
+734 silly mapToRegistry uri https://registry.npmjs.org/prompt
+735 verbose addNameVersion registry:https://registry.npmjs.org/prompt already in flight; waiting
+736 silly cache add args [ 'shelljs@0.0.9', null ]
+737 verbose cache add spec shelljs@0.0.9
+738 silly cache add parsed spec { raw: 'shelljs@0.0.9',
+738 silly cache add   scope: null,
+738 silly cache add   name: 'shelljs',
+738 silly cache add   rawSpec: '0.0.9',
+738 silly cache add   spec: '0.0.9',
+738 silly cache add   type: 'version' }
+739 verbose addNamed shelljs@0.0.9
+740 silly addNamed semver.valid 0.0.9
+741 silly addNamed semver.validRange 0.0.9
+742 silly mapToRegistry name shelljs
+743 silly mapToRegistry using default registry
+744 silly mapToRegistry registry https://registry.npmjs.org/
+745 silly mapToRegistry uri https://registry.npmjs.org/shelljs
+746 verbose addNameVersion registry:https://registry.npmjs.org/shelljs already in flight; waiting
+747 silly cache add args [ 'optimist@0.3.7', null ]
+748 verbose cache add spec optimist@0.3.7
+749 silly cache add parsed spec { raw: 'optimist@0.3.7',
+749 silly cache add   scope: null,
+749 silly cache add   name: 'optimist',
+749 silly cache add   rawSpec: '0.3.7',
+749 silly cache add   spec: '0.3.7',
+749 silly cache add   type: 'version' }
+750 verbose addNamed optimist@0.3.7
+751 silly addNamed semver.valid 0.3.7
+752 silly addNamed semver.validRange 0.3.7
+753 silly mapToRegistry name optimist
+754 silly mapToRegistry using default registry
+755 silly mapToRegistry registry https://registry.npmjs.org/
+756 silly mapToRegistry uri https://registry.npmjs.org/optimist
+757 verbose addNameVersion registry:https://registry.npmjs.org/optimist not in flight; fetching
+758 silly cache add args [ 'qrcode-terminal@0.8.0', null ]
+759 verbose cache add spec qrcode-terminal@0.8.0
+760 silly cache add parsed spec { raw: 'qrcode-terminal@0.8.0',
+760 silly cache add   scope: null,
+760 silly cache add   name: 'qrcode-terminal',
+760 silly cache add   rawSpec: '0.8.0',
+760 silly cache add   spec: '0.8.0',
+760 silly cache add   type: 'version' }
+761 verbose addNamed qrcode-terminal@0.8.0
+762 silly addNamed semver.valid 0.8.0
+763 silly addNamed semver.validRange 0.8.0
+764 silly mapToRegistry name qrcode-terminal
+765 silly mapToRegistry using default registry
+766 silly mapToRegistry registry https://registry.npmjs.org/
+767 silly mapToRegistry uri https://registry.npmjs.org/qrcode-terminal
+768 verbose addNameVersion registry:https://registry.npmjs.org/qrcode-terminal already in flight; waiting
+769 silly cache add args [ 'request@2.11.4', null ]
+770 verbose cache add spec request@2.11.4
+771 silly cache add parsed spec { raw: 'request@2.11.4',
+771 silly cache add   scope: null,
+771 silly cache add   name: 'request',
+771 silly cache add   rawSpec: '2.11.4',
+771 silly cache add   spec: '2.11.4',
+771 silly cache add   type: 'version' }
+772 verbose addNamed request@2.11.4
+773 silly addNamed semver.valid 2.11.4
+774 silly addNamed semver.validRange 2.11.4
+775 silly mapToRegistry name request
+776 silly mapToRegistry using default registry
+777 silly mapToRegistry registry https://registry.npmjs.org/
+778 silly mapToRegistry uri https://registry.npmjs.org/request
+779 verbose addNameVersion registry:https://registry.npmjs.org/request already in flight; waiting
+780 silly cache add args [ 'cordova@5.1.1', null ]
+781 verbose cache add spec cordova@5.1.1
+782 silly cache add parsed spec { raw: 'cordova@5.1.1',
+782 silly cache add   scope: null,
+782 silly cache add   name: 'cordova',
+782 silly cache add   rawSpec: '5.1.1',
+782 silly cache add   spec: '5.1.1',
+782 silly cache add   type: 'version' }
+783 verbose addNamed cordova@5.1.1
+784 silly addNamed semver.valid 5.1.1
+785 silly addNamed semver.validRange 5.1.1
+786 silly mapToRegistry name cordova
+787 silly mapToRegistry using default registry
+788 silly mapToRegistry registry https://registry.npmjs.org/
+789 silly mapToRegistry uri https://registry.npmjs.org/cordova
+790 verbose addNameVersion registry:https://registry.npmjs.org/cordova already in flight; waiting
+791 silly cache add args [ 'npm@2.11.3', null ]
+792 verbose cache add spec npm@2.11.3
+793 silly cache add parsed spec { raw: 'npm@2.11.3',
+793 silly cache add   scope: null,
+793 silly cache add   name: 'npm',
+793 silly cache add   rawSpec: '2.11.3',
+793 silly cache add   spec: '2.11.3',
+793 silly cache add   type: 'version' }
+794 verbose addNamed npm@2.11.3
+795 silly addNamed semver.valid 2.11.3
+796 silly addNamed semver.validRange 2.11.3
+797 silly mapToRegistry name npm
+798 silly mapToRegistry using default registry
+799 silly mapToRegistry registry https://registry.npmjs.org/
+800 silly mapToRegistry uri https://registry.npmjs.org/npm
+801 verbose addNameVersion registry:https://registry.npmjs.org/npm not in flight; fetching
+802 verbose get https://registry.npmjs.org/colors not expired, no request
+803 verbose get https://registry.npmjs.org/minimist not expired, no request
+804 verbose get https://registry.npmjs.org/semver not expired, no request
+805 verbose get https://registry.npmjs.org/pluralize not expired, no request
+806 verbose get https://registry.npmjs.org/prompt not expired, no request
+807 verbose get https://registry.npmjs.org/cordova not expired, no request
+808 verbose get https://registry.npmjs.org/shelljs not expired, no request
+809 verbose get https://registry.npmjs.org/qrcode-terminal not expired, no request
+810 verbose get https://registry.npmjs.org/archiver not expired, no request
+811 verbose get https://registry.npmjs.org/gaze not expired, no request
+812 verbose get https://registry.npmjs.org/home-dir not expired, no request
+813 verbose get https://registry.npmjs.org/localtunnel not expired, no request
+814 verbose get https://registry.npmjs.org/ip not expired, no request
+815 verbose get https://registry.npmjs.org/http-proxy not expired, no request
+816 verbose get https://registry.npmjs.org/tar not expired, no request
+817 verbose get https://registry.npmjs.org/request not expired, no request
+818 verbose get https://registry.npmjs.org/walkdir not expired, no request
+819 verbose get https://registry.npmjs.org/useragent not expired, no request
+820 verbose get https://registry.npmjs.org/connect not expired, no request
+821 silly mapToRegistry name prompt
+822 silly mapToRegistry using default registry
+823 silly mapToRegistry registry https://registry.npmjs.org/
+824 silly mapToRegistry uri https://registry.npmjs.org/prompt
+825 verbose addRemoteTarball https://registry.npmjs.org/prompt/-/prompt-0.2.14.tgz not in flight; adding
+826 verbose addRemoteTarball [ 'https://registry.npmjs.org/prompt/-/prompt-0.2.14.tgz',
+826 verbose addRemoteTarball   '57754f64f543fd7b0845707c818ece618f05ffdc' ]
+827 silly mapToRegistry name cordova
+828 silly mapToRegistry using default registry
+829 silly mapToRegistry registry https://registry.npmjs.org/
+830 silly mapToRegistry uri https://registry.npmjs.org/cordova
+831 verbose addRemoteTarball https://registry.npmjs.org/cordova/-/cordova-5.1.1.tgz not in flight; adding
+832 verbose addRemoteTarball [ 'https://registry.npmjs.org/cordova/-/cordova-5.1.1.tgz',
+832 verbose addRemoteTarball   'a9da84a4b42eac67d4b661246c7a6704c350eaae' ]
+833 verbose get https://registry.npmjs.org/socket.io not expired, no request
+834 verbose get https://registry.npmjs.org/throttleit not expired, no request
+835 verbose get https://registry.npmjs.org/node-static not expired, no request
+836 verbose get https://registry.npmjs.org/optimist not expired, no request
+837 verbose get https://registry.npmjs.org/npm not expired, no request
+838 silly mapToRegistry name npm
+839 silly mapToRegistry using default registry
+840 silly mapToRegistry registry https://registry.npmjs.org/
+841 silly mapToRegistry uri https://registry.npmjs.org/npm
+842 verbose addRemoteTarball https://registry.npmjs.org/npm/-/npm-2.11.3.tgz not in flight; adding
+843 verbose addRemoteTarball [ 'https://registry.npmjs.org/npm/-/npm-2.11.3.tgz',
+843 verbose addRemoteTarball   'd56b9e74c7c42248b88478932832b489af33d7ab' ]
+844 silly cache afterAdd minimist@0.1.0
+845 verbose afterAdd /Users/liorlasry/.npm/minimist/0.1.0/package/package.json not in flight; writing
+846 silly cache afterAdd colors@0.6.2
+847 verbose afterAdd /Users/liorlasry/.npm/colors/0.6.2/package/package.json not in flight; writing
+848 silly cache afterAdd colors@0.6.0-1
+849 verbose afterAdd /Users/liorlasry/.npm/colors/0.6.0-1/package/package.json not in flight; writing
+850 silly cache afterAdd pluralize@0.0.4
+851 verbose afterAdd /Users/liorlasry/.npm/pluralize/0.0.4/package/package.json not in flight; writing
+852 silly cache afterAdd prompt@0.2.11
+853 verbose afterAdd /Users/liorlasry/.npm/prompt/0.2.11/package/package.json not in flight; writing
+854 silly cache afterAdd cordova@5.0.0
+855 verbose afterAdd /Users/liorlasry/.npm/cordova/5.0.0/package/package.json not in flight; writing
+856 silly cache afterAdd semver@1.1.0
+857 verbose afterAdd /Users/liorlasry/.npm/semver/1.1.0/package/package.json not in flight; writing
+858 silly cache afterAdd shelljs@0.1.4
+859 verbose afterAdd /Users/liorlasry/.npm/shelljs/0.1.4/package/package.json not in flight; writing
+860 silly cache afterAdd shelljs@0.2.6
+861 verbose afterAdd /Users/liorlasry/.npm/shelljs/0.2.6/package/package.json not in flight; writing
+862 silly cache afterAdd shelljs@0.0.9
+863 verbose afterAdd /Users/liorlasry/.npm/shelljs/0.0.9/package/package.json not in flight; writing
+864 silly cache afterAdd qrcode-terminal@0.9.4
+865 verbose afterAdd /Users/liorlasry/.npm/qrcode-terminal/0.9.4/package/package.json not in flight; writing
+866 silly cache afterAdd qrcode-terminal@0.8.0
+867 verbose afterAdd /Users/liorlasry/.npm/qrcode-terminal/0.8.0/package/package.json not in flight; writing
+868 silly cache afterAdd gaze@0.4.3
+869 verbose afterAdd /Users/liorlasry/.npm/gaze/0.4.3/package/package.json not in flight; writing
+870 silly cache afterAdd archiver@0.14.3
+871 verbose afterAdd /Users/liorlasry/.npm/archiver/0.14.3/package/package.json not in flight; writing
+872 silly cache afterAdd home-dir@0.1.2
+873 verbose afterAdd /Users/liorlasry/.npm/home-dir/0.1.2/package/package.json not in flight; writing
+874 silly cache afterAdd ip@0.3.1
+875 verbose afterAdd /Users/liorlasry/.npm/ip/0.3.1/package/package.json not in flight; writing
+876 silly cache afterAdd localtunnel@1.3.0
+877 verbose afterAdd /Users/liorlasry/.npm/localtunnel/1.3.0/package/package.json not in flight; writing
+878 silly cache afterAdd http-proxy@1.8.1
+879 verbose afterAdd /Users/liorlasry/.npm/http-proxy/1.8.1/package/package.json not in flight; writing
+880 silly cache afterAdd tar@0.1.19
+881 verbose afterAdd /Users/liorlasry/.npm/tar/0.1.19/package/package.json not in flight; writing
+882 silly cache afterAdd request@2.33.0
+883 verbose afterAdd /Users/liorlasry/.npm/request/2.33.0/package/package.json not in flight; writing
+884 silly cache afterAdd request@2.11.4
+885 verbose afterAdd /Users/liorlasry/.npm/request/2.11.4/package/package.json not in flight; writing
+886 silly cache afterAdd walkdir@0.0.8
+887 verbose afterAdd /Users/liorlasry/.npm/walkdir/0.0.8/package/package.json not in flight; writing
+888 silly cache afterAdd useragent@2.0.8
+889 verbose afterAdd /Users/liorlasry/.npm/useragent/2.0.8/package/package.json not in flight; writing
+890 info retry fetch attempt 1 at 11:14:11
+891 info attempt registry request try #1 at 11:14:11
+892 http fetch GET https://registry.npmjs.org/npm/-/npm-2.11.3.tgz
+893 info retry fetch attempt 1 at 11:14:11
+894 info attempt registry request try #1 at 11:14:11
+895 http fetch GET https://registry.npmjs.org/prompt/-/prompt-0.2.14.tgz
+896 silly cache afterAdd socket.io@1.0.4
+897 verbose afterAdd /Users/liorlasry/.npm/socket.io/1.0.4/package/package.json not in flight; writing
+898 silly cache afterAdd throttleit@0.0.2
+899 verbose afterAdd /Users/liorlasry/.npm/throttleit/0.0.2/package/package.json not in flight; writing
+900 silly cache afterAdd node-static@0.7.0
+901 verbose afterAdd /Users/liorlasry/.npm/node-static/0.7.0/package/package.json not in flight; writing
+902 info retry fetch attempt 1 at 11:14:11
+903 info attempt registry request try #1 at 11:14:11
+904 http fetch GET https://registry.npmjs.org/cordova/-/cordova-5.1.1.tgz
+905 silly cache afterAdd optimist@0.3.7
+906 verbose afterAdd /Users/liorlasry/.npm/optimist/0.3.7/package/package.json not in flight; writing
+907 verbose afterAdd /Users/liorlasry/.npm/minimist/0.1.0/package/package.json written
+908 silly install resolved [ { name: 'minimist',
+908 silly install resolved     version: '0.1.0',
+908 silly install resolved     description: 'parse argument options',
+908 silly install resolved     main: 'index.js',
+908 silly install resolved     devDependencies: { tape: '~1.0.4', tap: '~0.4.0' },
+908 silly install resolved     scripts: { test: 'tap test/*.js' },
+908 silly install resolved     testling: { files: 'test/*.js', browsers: [Object] },
+908 silly install resolved     repository: { type: 'git', url: 'git://github.com/substack/minimist.git' },
+908 silly install resolved     homepage: 'https://github.com/substack/minimist',
+908 silly install resolved     keywords: [ 'argv', 'getopt', 'parser', 'optimist' ],
+908 silly install resolved     author:
+908 silly install resolved      { name: 'James Halliday',
+908 silly install resolved        email: 'mail@substack.net',
+908 silly install resolved        url: 'http://substack.net' },
+908 silly install resolved     license: 'MIT',
+908 silly install resolved     bugs: { url: 'https://github.com/substack/minimist/issues' },
+908 silly install resolved     _id: 'minimist@0.1.0',
+908 silly install resolved     dist:
+908 silly install resolved      { shasum: '99df657a52574c21c9057497df742790b2b4c0de',
+908 silly install resolved        tarball: 'http://registry.npmjs.org/minimist/-/minimist-0.1.0.tgz' },
+908 silly install resolved     _from: 'minimist@0.1.0',
+908 silly install resolved     _npmVersion: '1.4.3',
+908 silly install resolved     _npmUser: { name: 'substack', email: 'mail@substack.net' },
+908 silly install resolved     maintainers: [ [Object] ],
+908 silly install resolved     directories: {},
+908 silly install resolved     _shasum: '99df657a52574c21c9057497df742790b2b4c0de',
+908 silly install resolved     _resolved: 'https://registry.npmjs.org/minimist/-/minimist-0.1.0.tgz',
+908 silly install resolved     readme: 'ERROR: No README data found!' } ]
+909 info install minimist@0.1.0 into /usr/local/lib/node_modules/phonegap
+910 info installOne minimist@0.1.0
+911 verbose installOne of minimist to /usr/local/lib/node_modules/phonegap not in flight; installing
+912 verbose afterAdd /Users/liorlasry/.npm/colors/0.6.0-1/package/package.json written
+913 silly install resolved [ { name: 'colors',
+913 silly install resolved     description: 'get colors in your node.js console like what',
+913 silly install resolved     version: '0.6.0-1',
+913 silly install resolved     author: { name: 'Marak Squires' },
+913 silly install resolved     repository: { type: 'git', url: 'git://github.com/Marak/colors.js.git' },
+913 silly install resolved     engines: { node: '>=0.1.90' },
+913 silly install resolved     main: 'colors',
+913 silly install resolved     _npmUser: { name: 'marak', email: 'marak.squires@gmail.com' },
+913 silly install resolved     _id: 'colors@0.6.0-1',
+913 silly install resolved     dependencies: {},
+913 silly install resolved     devDependencies: {},
+913 silly install resolved     _engineSupported: true,
+913 silly install resolved     _npmVersion: '1.0.106',
+913 silly install resolved     _nodeVersion: 'v0.4.12',
+913 silly install resolved     _defaultsLoaded: true,
+913 silly install resolved     dist:
+913 silly install resolved      { shasum: '6dbb68ceb8bc60f2b313dcc5ce1599f06d19e67a',
+913 silly install resolved        tarball: 'http://registry.npmjs.org/colors/-/colors-0.6.0-1.tgz' },
+913 silly install resolved     maintainers: [ [Object] ],
+913 silly install resolved     directories: {},
+913 silly install resolved     _shasum: '6dbb68ceb8bc60f2b313dcc5ce1599f06d19e67a',
+913 silly install resolved     _resolved: 'https://registry.npmjs.org/colors/-/colors-0.6.0-1.tgz',
+913 silly install resolved     _from: 'colors@0.6.0-1',
+913 silly install resolved     bugs: { url: 'https://github.com/Marak/colors.js/issues' },
+913 silly install resolved     readme: 'ERROR: No README data found!',
+913 silly install resolved     homepage: 'https://github.com/Marak/colors.js' } ]
+914 info install colors@0.6.0-1 into /usr/local/lib/node_modules/phonegap
+915 info installOne colors@0.6.0-1
+916 verbose installOne of colors to /usr/local/lib/node_modules/phonegap not in flight; installing
+917 verbose afterAdd /Users/liorlasry/.npm/colors/0.6.2/package/package.json written
+918 silly install resolved [ { name: 'colors',
+918 silly install resolved     description: 'get colors in your node.js console like what',
+918 silly install resolved     version: '0.6.2',
+918 silly install resolved     author: { name: 'Marak Squires' },
+918 silly install resolved     homepage: 'https://github.com/Marak/colors.js',
+918 silly install resolved     bugs: { url: 'https://github.com/Marak/colors.js/issues' },
+918 silly install resolved     keywords: [ 'ansi', 'terminal', 'colors' ],
+918 silly install resolved     repository: { type: 'git', url: 'http://github.com/Marak/colors.js.git' },
+918 silly install resolved     engines: { node: '>=0.1.90' },
+918 silly install resolved     main: 'colors',
+918 silly install resolved     _id: 'colors@0.6.2',
+918 silly install resolved     dist:
+918 silly install resolved      { shasum: '2423fe6678ac0c5dae8852e5d0e5be08c997abcc',
+918 silly install resolved        tarball: 'http://registry.npmjs.org/colors/-/colors-0.6.2.tgz' },
+918 silly install resolved     _from: 'colors@0.6.2',
+918 silly install resolved     _npmVersion: '1.2.30',
+918 silly install resolved     _npmUser: { name: 'marak', email: 'marak.squires@gmail.com' },
+918 silly install resolved     maintainers: [ [Object] ],
+918 silly install resolved     directories: {},
+918 silly install resolved     _shasum: '2423fe6678ac0c5dae8852e5d0e5be08c997abcc',
+918 silly install resolved     _resolved: 'https://registry.npmjs.org/colors/-/colors-0.6.2.tgz',
+918 silly install resolved     readme: 'ERROR: No README data found!' } ]
+919 info install colors@0.6.2 into /usr/local/lib/node_modules/phonegap/node_modules/phonegap-build
+920 info installOne colors@0.6.2
+921 verbose installOne of colors to /usr/local/lib/node_modules/phonegap/node_modules/phonegap-build not in flight; installing
+922 verbose afterAdd /Users/liorlasry/.npm/prompt/0.2.11/package/package.json written
+923 silly install resolved [ { name: 'prompt',
+923 silly install resolved     description: 'A beautiful command-line prompt for node.js',
+923 silly install resolved     version: '0.2.11',
+923 silly install resolved     author: { name: 'Nodejitsu Inc.', email: 'info@nodejitsu.com' },
+923 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+923 silly install resolved     repository: { type: 'git', url: 'http://github.com/flatiron/prompt.git' },
+923 silly install resolved     dependencies:
+923 silly install resolved      { pkginfo: '0.x.x',
+923 silly install resolved        read: '1.0.x',
+923 silly install resolved        revalidator: '0.1.x',
+923 silly install resolved        utile: '0.2.x',
+923 silly install resolved        winston: '0.6.x' },
+923 silly install resolved     devDependencies: { vows: '0.7.0' },
+923 silly install resolved     main: './lib/prompt',
+923 silly install resolved     scripts:
+923 silly install resolved      { test: 'vows test/prompt-test.js --spec',
+923 silly install resolved        'test-all': 'vows --spec' },
+923 silly install resolved     engines: { node: '>= 0.6.6' },
+923 silly install resolved     bugs: { url: 'https://github.com/flatiron/prompt/issues' },
+923 silly install resolved     _id: 'prompt@0.2.11',
+923 silly install resolved     dist:
+923 silly install resolved      { shasum: '26d455af4b7fac15291dfcdddf2400328c1fa446',
+923 silly install resolved        tarball: 'http://registry.npmjs.org/prompt/-/prompt-0.2.11.tgz' },
+923 silly install resolved     _from: 'prompt@0.2.11',
+923 silly install resolved     _npmVersion: '1.2.32',
+923 silly install resolved     _npmUser: { name: 'jcrugzz', email: 'jcrugzz@gmail.com' },
+923 silly install resolved     directories: {},
+923 silly install resolved     _shasum: '26d455af4b7fac15291dfcdddf2400328c1fa446',
+923 silly install resolved     _resolved: 'https://registry.npmjs.org/prompt/-/prompt-0.2.11.tgz',
+923 silly install resolved     readme: 'ERROR: No README data found!',
+923 silly install resolved     homepage: 'https://github.com/flatiron/prompt' } ]
+924 info install prompt@0.2.11 into /usr/local/lib/node_modules/phonegap
+925 info installOne prompt@0.2.11
+926 verbose installOne of prompt to /usr/local/lib/node_modules/phonegap not in flight; installing
+927 verbose afterAdd /Users/liorlasry/.npm/pluralize/0.0.4/package/package.json written
+928 silly install resolved [ { name: 'pluralize',
+928 silly install resolved     version: '0.0.4',
+928 silly install resolved     description: 'Pluralize and singularize words with ease',
+928 silly install resolved     main: 'index.js',
+928 silly install resolved     scripts: { test: './node_modules/mocha/bin/mocha test.js' },
+928 silly install resolved     repository:
+928 silly install resolved      { type: 'git',
+928 silly install resolved        url: 'https://github.com/blakeembrey/node-pluralize.git' },
+928 silly install resolved     keywords: [ 'plural', 'plurals', 'pluralize', 'singular', 'singularize' ],
+928 silly install resolved     author: { name: 'Blake Embrey' },
+928 silly install resolved     license: 'MIT',
+928 silly install resolved     devDependencies: { mocha: '~1.8.2' },
+928 silly install resolved     bugs: { url: 'https://github.com/blakeembrey/node-pluralize/issues' },
+928 silly install resolved     _id: 'pluralize@0.0.4',
+928 silly install resolved     dist:
+928 silly install resolved      { shasum: '1dc3f5dd4ec729a7e92e5387ec8de120c7b5146d',
+928 silly install resolved        tarball: 'http://registry.npmjs.org/pluralize/-/pluralize-0.0.4.tgz' },
+928 silly install resolved     _from: 'pluralize@0.0.4',
+928 silly install resolved     _npmVersion: '1.2.30',
+928 silly install resolved     _npmUser: { name: 'blakeembrey', email: 'me@blakeembrey.com' },
+928 silly install resolved     maintainers: [ [Object] ],
+928 silly install resolved     directories: {},
+928 silly install resolved     _shasum: '1dc3f5dd4ec729a7e92e5387ec8de120c7b5146d',
+928 silly install resolved     _resolved: 'https://registry.npmjs.org/pluralize/-/pluralize-0.0.4.tgz',
+928 silly install resolved     readme: 'ERROR: No README data found!',
+928 silly install resolved     homepage: 'https://github.com/blakeembrey/node-pluralize' } ]
+929 info install pluralize@0.0.4 into /usr/local/lib/node_modules/phonegap
+930 info installOne pluralize@0.0.4
+931 verbose installOne of pluralize to /usr/local/lib/node_modules/phonegap not in flight; installing
+932 verbose afterAdd /Users/liorlasry/.npm/cordova/5.0.0/package/package.json written
+933 silly install resolved [ { name: 'cordova',
+933 silly install resolved     version: '5.0.0',
+933 silly install resolved     preferGlobal: 'true',
+933 silly install resolved     description: 'Cordova command line interface tool',
+933 silly install resolved     main: 'cordova',
+933 silly install resolved     engines: { node: '>=0.9.9' },
+933 silly install resolved     engineStrict: true,
+933 silly install resolved     bin: { cordova: './bin/cordova' },
+933 silly install resolved     scripts:
+933 silly install resolved      { test: 'node node_modules/jasmine-node/bin/jasmine-node --captureExceptions --color spec',
+933 silly install resolved        cover: 'node node_modules/istanbul/lib/cli.js cover --root src --print detail node_modules/jasmine-node/bin/jasmine-node -- spec' },
+933 silly install resolved     repository:
+933 silly install resolved      { type: 'git',
+933 silly install resolved        url: 'https://git-wip-us.apache.org/repos/asf/cordova-cli.git' },
+933 silly install resolved     bugs:
+933 silly install resolved      { url: 'https://issues.apache.org/jira/browse/CB',
+933 silly install resolved        email: 'dev@cordova.apache.org' },
+933 silly install resolved     keywords: [ 'cordova', 'client', 'cli' ],
+933 silly install resolved     dependencies:
+933 silly install resolved      { 'cordova-lib': '5.0.0',
+933 silly install resolved        q: '1.0.1',
+933 silly install resolved        nopt: '3.0.1',
+933 silly install resolved        underscore: '1.7.0' },
+933 silly install resolved     devDependencies:
+933 silly install resolved      { istanbul: '^0.3.4',
+933 silly install resolved        grunt: '0.4.5',
+933 silly install resolved        'grunt-retire': '0.3.7',
+933 silly install resolved        'jasmine-node': '1.14.5' },
+933 silly install resolved     author: { name: 'Anis Kadri' },
+933 silly install resolved     contributors:
+933 silly install resolved      [ [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object] ],
+933 silly install resolved     license: 'Apache version 2.0',
+933 silly install resolved     _id: 'cordova@5.0.0',
+933 silly install resolved     _shasum: '696907aff7c889beea4422b6c80e57558a905c05',
+933 silly install resolved     _resolved: 'https://registry.npmjs.org/cordova/-/cordova-5.0.0.tgz',
+933 silly install resolved     _from: 'cordova@5.0.0',
+933 silly install resolved     _npmVersion: '2.7.0',
+933 silly install resolved     _nodeVersion: '0.10.36',
+933 silly install resolved     _npmUser: { name: 'stevegill', email: 'stevengill97@gmail.com' },
+933 silly install resolved     maintainers:
+933 silly install resolved      [ [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object],
+933 silly install resolved        [Object] ],
+933 silly install resolved     dist:
+933 silly install resolved      { shasum: '696907aff7c889beea4422b6c80e57558a905c05',
+933 silly install resolved        tarball: 'http://registry.npmjs.org/cordova/-/cordova-5.0.0.tgz' },
+933 silly install resolved     directories: {},
+933 silly install resolved     readme: 'ERROR: No README data found!' } ]
+934 info install cordova@5.0.0 into /usr/local/lib/node_modules/phonegap
+935 info installOne cordova@5.0.0
+936 verbose installOne of cordova to /usr/local/lib/node_modules/phonegap not in flight; installing
+937 verbose afterAdd /Users/liorlasry/.npm/semver/1.1.0/package/package.json written
+938 silly install resolved [ { name: 'semver',
+938 silly install resolved     version: '1.1.0',
+938 silly install resolved     description: 'The semantic version parser used by npm.',
+938 silly install resolved     main: 'semver.js',
+938 silly install resolved     scripts: { test: 'tap test.js' },
+938 silly install resolved     devDependencies: { tap: '0.x >=0.0.4' },
+938 silly install resolved     license:
+938 silly install resolved      { type: 'MIT',
+938 silly install resolved        url: 'https://github.com/isaacs/semver/raw/master/LICENSE' },
+938 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/node-semver.git' },
+938 silly install resolved     bin: { semver: './bin/semver' },
+938 silly install resolved     _id: 'semver@1.1.0',
+938 silly install resolved     dist:
+938 silly install resolved      { shasum: 'da9b9c837e31550a7c928622bc2381de7dd7a53e',
+938 silly install resolved        tarball: 'http://registry.npmjs.org/semver/-/semver-1.1.0.tgz' },
+938 silly install resolved     _npmVersion: '1.1.62',
+938 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+938 silly install resolved     maintainers: [ [Object] ],
+938 silly install resolved     directories: {},
+938 silly install resolved     _shasum: 'da9b9c837e31550a7c928622bc2381de7dd7a53e',
+938 silly install resolved     _resolved: 'https://registry.npmjs.org/semver/-/semver-1.1.0.tgz',
+938 silly install resolved     _from: 'semver@1.1.0',
+938 silly install resolved     bugs: { url: 'https://github.com/isaacs/node-semver/issues' },
+938 silly install resolved     readme: 'ERROR: No README data found!',
+938 silly install resolved     homepage: 'https://github.com/isaacs/node-semver' } ]
+939 info install semver@1.1.0 into /usr/local/lib/node_modules/phonegap
+940 info installOne semver@1.1.0
+941 verbose installOne of semver to /usr/local/lib/node_modules/phonegap not in flight; installing
+942 verbose afterAdd /Users/liorlasry/.npm/shelljs/0.1.4/package/package.json written
+943 silly install resolved [ { name: 'shelljs',
+943 silly install resolved     version: '0.1.4',
+943 silly install resolved     author: { name: 'Artur Adib', email: 'aadib@mozilla.com' },
+943 silly install resolved     description: 'Portable Unix shell commands for Node.js',
+943 silly install resolved     keywords: [ 'unix', 'shell', 'makefile', 'make', 'jake', 'synchronous' ],
+943 silly install resolved     repository: { type: 'git', url: 'git://github.com/arturadib/shelljs.git' },
+943 silly install resolved     homepage: 'http://github.com/arturadib/shelljs',
+943 silly install resolved     main: './shell.js',
+943 silly install resolved     scripts: { test: 'node scripts/run-tests' },
+943 silly install resolved     bin: { shjs: './bin/shjs' },
+943 silly install resolved     dependencies: {},
+943 silly install resolved     devDependencies: { jshint: '~1.1.0' },
+943 silly install resolved     optionalDependencies: {},
+943 silly install resolved     engines: { node: '*' },
+943 silly install resolved     _id: 'shelljs@0.1.4',
+943 silly install resolved     dist:
+943 silly install resolved      { shasum: 'dfbbe78d56c3c0168d2fb79e10ecd1dbcb07ec0e',
+943 silly install resolved        tarball: 'http://registry.npmjs.org/shelljs/-/shelljs-0.1.4.tgz' },
+943 silly install resolved     _from: 'shelljs@0.1.4',
+943 silly install resolved     _npmVersion: '1.2.14',
+943 silly install resolved     _npmUser: { name: 'artur', email: 'arturadib@gmail.com' },
+943 silly install resolved     maintainers: [ [Object] ],
+943 silly install resolved     directories: {},
+943 silly install resolved     _shasum: 'dfbbe78d56c3c0168d2fb79e10ecd1dbcb07ec0e',
+943 silly install resolved     _resolved: 'https://registry.npmjs.org/shelljs/-/shelljs-0.1.4.tgz',
+943 silly install resolved     bugs: { url: 'https://github.com/arturadib/shelljs/issues' },
+943 silly install resolved     readme: 'ERROR: No README data found!' } ]
+944 info install shelljs@0.1.4 into /usr/local/lib/node_modules/phonegap
+945 info installOne shelljs@0.1.4
+946 verbose installOne of shelljs to /usr/local/lib/node_modules/phonegap not in flight; installing
+947 verbose afterAdd /Users/liorlasry/.npm/shelljs/0.2.6/package/package.json written
+948 silly install resolved [ { name: 'shelljs',
+948 silly install resolved     version: '0.2.6',
+948 silly install resolved     author: { name: 'Artur Adib', email: 'aadib@mozilla.com' },
+948 silly install resolved     description: 'Portable Unix shell commands for Node.js',
+948 silly install resolved     keywords: [ 'unix', 'shell', 'makefile', 'make', 'jake', 'synchronous' ],
+948 silly install resolved     repository: { type: 'git', url: 'git://github.com/arturadib/shelljs.git' },
+948 silly install resolved     homepage: 'http://github.com/arturadib/shelljs',
+948 silly install resolved     main: './shell.js',
+948 silly install resolved     scripts: { test: 'node scripts/run-tests' },
+948 silly install resolved     bin: { shjs: './bin/shjs' },
+948 silly install resolved     dependencies: {},
+948 silly install resolved     devDependencies: { jshint: '~2.1.11' },
+948 silly install resolved     optionalDependencies: {},
+948 silly install resolved     engines: { node: '>=0.8.0' },
+948 silly install resolved     bugs: { url: 'https://github.com/arturadib/shelljs/issues' },
+948 silly install resolved     _id: 'shelljs@0.2.6',
+948 silly install resolved     dist:
+948 silly install resolved      { shasum: '90492d72ffcc8159976baba62fb0f6884f0c3378',
+948 silly install resolved        tarball: 'http://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz' },
+948 silly install resolved     _from: 'shelljs@0.2.6',
+948 silly install resolved     _npmVersion: '1.3.8',
+948 silly install resolved     _npmUser: { name: 'artur', email: 'arturadib@gmail.com' },
+948 silly install resolved     maintainers: [ [Object] ],
+948 silly install resolved     directories: {},
+948 silly install resolved     _shasum: '90492d72ffcc8159976baba62fb0f6884f0c3378',
+948 silly install resolved     _resolved: 'https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz',
+948 silly install resolved     readme: 'ERROR: No README data found!' } ]
+949 info install shelljs@0.2.6 into /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap
+950 info installOne shelljs@0.2.6
+951 verbose installOne of shelljs to /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap not in flight; installing
+952 verbose afterAdd /Users/liorlasry/.npm/gaze/0.4.3/package/package.json written
+953 silly install resolved [ { name: 'gaze',
+953 silly install resolved     description: 'A globbing fs.watch wrapper built from the best parts of other fine watch libs.',
+953 silly install resolved     version: '0.4.3',
+953 silly install resolved     homepage: 'https://github.com/shama/gaze',
+953 silly install resolved     author: { name: 'Kyle Robinson Young', email: 'kyle@dontkry.com' },
+953 silly install resolved     repository: { type: 'git', url: 'git://github.com/shama/gaze.git' },
+953 silly install resolved     bugs: { url: 'https://github.com/shama/gaze/issues' },
+953 silly install resolved     licenses: [ [Object] ],
+953 silly install resolved     main: 'lib/gaze',
+953 silly install resolved     engines: { node: '>= 0.8.0' },
+953 silly install resolved     scripts: { test: 'grunt nodeunit -v' },
+953 silly install resolved     dependencies: { globule: '~0.1.0' },
+953 silly install resolved     devDependencies:
+953 silly install resolved      { grunt: '~0.4.1',
+953 silly install resolved        'grunt-contrib-nodeunit': '~0.2.0',
+953 silly install resolved        'grunt-contrib-jshint': '~0.6.0',
+953 silly install resolved        'grunt-benchmark': '~0.2.0' },
+953 silly install resolved     keywords: [ 'watch', 'glob' ],
+953 silly install resolved     contributors:
+953 silly install resolved      [ [Object],
+953 silly install resolved        [Object],
+953 silly install resolved        [Object],
+953 silly install resolved        [Object],
+953 silly install resolved        [Object],
+953 silly install resolved        [Object],
+953 silly install resolved        [Object],
+953 silly install resolved        [Object],
+953 silly install resolved        [Object],
+953 silly install resolved        [Object] ],
+953 silly install resolved     _id: 'gaze@0.4.3',
+953 silly install resolved     dist:
+953 silly install resolved      { shasum: 'e538f4ff5e4fe648f473a97e1ebb253d2de127b5',
+953 silly install resolved        tarball: 'http://registry.npmjs.org/gaze/-/gaze-0.4.3.tgz' },
+953 silly install resolved     _from: 'gaze@0.4.3',
+953 silly install resolved     _npmVersion: '1.3.11',
+953 silly install resolved     _npmUser: { name: 'shama', email: 'kyle@dontkry.com' },
+953 silly install resolved     maintainers: [ [Object] ],
+953 silly install resolved     directories: {},
+953 silly install resolved     _shasum: 'e538f4ff5e4fe648f473a97e1ebb253d2de127b5',
+953 silly install resolved     _resolved: 'https://registry.npmjs.org/gaze/-/gaze-0.4.3.tgz',
+953 silly install resolved     readme: 'ERROR: No README data found!' } ]
+954 info install gaze@0.4.3 into /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap
+955 info installOne gaze@0.4.3
+956 verbose installOne of gaze to /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap not in flight; installing
+957 verbose afterAdd /Users/liorlasry/.npm/qrcode-terminal/0.9.4/package/package.json written
+958 silly install resolved [ { name: 'qrcode-terminal',
+958 silly install resolved     keywords: [ 'ansi', 'ascii', 'qrcode', 'console' ],
+958 silly install resolved     version: '0.9.4',
+958 silly install resolved     description: 'QRCodes, in the terminal',
+958 silly install resolved     homepage: 'https://github.com/gtanner/qrcode-terminal',
+958 silly install resolved     repository:
+958 silly install resolved      { type: 'git',
+958 silly install resolved        url: 'https://github.com/gtanner/qrcode-terminal' },
+958 silly install resolved     contributors: [ [Object], [Object] ],
+958 silly install resolved     licenses: [ [Object] ],
+958 silly install resolved     main: './lib/main',
+958 silly install resolved     bin: { 'qrcode-terminal': './bin/qrcode-terminal.js' },
+958 silly install resolved     preferGlobal: false,
+958 silly install resolved     devDependencies: { sinon: '*', mocha: '*', 'expect.js': '*', jshint: '*' },
+958 silly install resolved     scripts: { test: './node_modules/jshint/bin/jshint lib vendor && node example/basic.js && ./node_modules/mocha/bin/mocha -R nyan' },
+958 silly install resolved     _id: 'qrcode-terminal@0.9.4',
+958 silly install resolved     dist:
+958 silly install resolved      { shasum: '7cde46b544ca667971c69c6acebf5074bd5045bb',
+958 silly install resolved        tarball: 'http://registry.npmjs.org/qrcode-terminal/-/qrcode-terminal-0.9.4.tgz' },
+958 silly install resolved     _npmVersion: '1.1.62',
+958 silly install resolved     _npmUser: { name: 'mwbrooks', email: 'michael@michaelbrooks.ca' },
+958 silly install resolved     maintainers: [ [Object], [Object] ],
+958 silly install resolved     directories: {},
+958 silly install resolved     _shasum: '7cde46b544ca667971c69c6acebf5074bd5045bb',
+958 silly install resolved     _resolved: 'https://registry.npmjs.org/qrcode-terminal/-/qrcode-terminal-0.9.4.tgz',
+958 silly install resolved     _from: 'qrcode-terminal@0.9.4',
+958 silly install resolved     bugs: { url: 'https://github.com/gtanner/qrcode-terminal/issues' },
+958 silly install resolved     readme: 'ERROR: No README data found!' } ]
+959 info install qrcode-terminal@0.9.4 into /usr/local/lib/node_modules/phonegap
+960 info installOne qrcode-terminal@0.9.4
+961 verbose installOne of qrcode-terminal to /usr/local/lib/node_modules/phonegap not in flight; installing
+962 verbose afterAdd /Users/liorlasry/.npm/qrcode-terminal/0.8.0/package/package.json written
+963 silly install resolved [ { name: 'qrcode-terminal',
+963 silly install resolved     keywords: [ 'ansi', 'ascii', 'qrcode', 'console' ],
+963 silly install resolved     version: '0.8.0',
+963 silly install resolved     description: 'QRCodes, in the terminal',
+963 silly install resolved     homepage: 'https://github.com/gtanner/qrcode-terminal',
+963 silly install resolved     repository:
+963 silly install resolved      { type: 'git',
+963 silly install resolved        url: 'https://github.com/gtanner/qrcode-terminal' },
+963 silly install resolved     contributors: [ [Object], [Object] ],
+963 silly install resolved     licenses: [ [Object] ],
+963 silly install resolved     main: './lib/main',
+963 silly install resolved     dependencies: { colors: '*' },
+963 silly install resolved     devDependencies: { sinon: '*', mocha: '*', 'expect.js': '*' },
+963 silly install resolved     scripts: { test: 'node example/basic.js && ./node_modules/mocha/bin/mocha -R nyan' },
+963 silly install resolved     _id: 'qrcode-terminal@0.8.0',
+963 silly install resolved     dist:
+963 silly install resolved      { shasum: '13158fdd53cfac00a38a8f9bb3b9166e27baa844',
+963 silly install resolved        tarball: 'http://registry.npmjs.org/qrcode-terminal/-/qrcode-terminal-0.8.0.tgz' },
+963 silly install resolved     _npmVersion: '1.1.62',
+963 silly install resolved     _npmUser: { name: 'mwbrooks', email: 'michael@michaelbrooks.ca' },
+963 silly install resolved     maintainers: [ [Object], [Object] ],
+963 silly install resolved     directories: {},
+963 silly install resolved     _shasum: '13158fdd53cfac00a38a8f9bb3b9166e27baa844',
+963 silly install resolved     _resolved: 'https://registry.npmjs.org/qrcode-terminal/-/qrcode-terminal-0.8.0.tgz',
+963 silly install resolved     _from: 'qrcode-terminal@0.8.0',
+963 silly install resolved     bugs: { url: 'https://github.com/gtanner/qrcode-terminal/issues' },
+963 silly install resolved     readme: 'ERROR: No README data found!' } ]
+964 info install qrcode-terminal@0.8.0 into /usr/local/lib/node_modules/phonegap/node_modules/phonegap-build
+965 info installOne qrcode-terminal@0.8.0
+966 verbose installOne of qrcode-terminal to /usr/local/lib/node_modules/phonegap/node_modules/phonegap-build not in flight; installing
+967 verbose afterAdd /Users/liorlasry/.npm/shelljs/0.0.9/package/package.json written
+968 silly install resolved [ { name: 'shelljs',
+968 silly install resolved     version: '0.0.9',
+968 silly install resolved     author: { name: 'Artur Adib', email: 'aadib@mozilla.com' },
+968 silly install resolved     description: 'Portable Unix shell commands for Node.js',
+968 silly install resolved     keywords: [ 'unix', 'shell', 'makefile', 'make', 'jake', 'synchronous' ],
+968 silly install resolved     repository: { type: 'git', url: 'git://github.com/arturadib/shelljs.git' },
+968 silly install resolved     homepage: 'http://github.com/arturadib/shelljs',
+968 silly install resolved     main: './shell.js',
+968 silly install resolved     scripts: { test: 'node scripts/run-tests' },
+968 silly install resolved     bin: { shjs: './bin/shjs' },
+968 silly install resolved     dependencies: {},
+968 silly install resolved     devDependencies: {},
+968 silly install resolved     optionalDependencies: {},
+968 silly install resolved     engines: { node: '*' },
+968 silly install resolved     _id: 'shelljs@0.0.9',
+968 silly install resolved     dist:
+968 silly install resolved      { shasum: '417bf78ae22a703f8071f5df3e0a6ed004205d5f',
+968 silly install resolved        tarball: 'http://registry.npmjs.org/shelljs/-/shelljs-0.0.9.tgz' },
+968 silly install resolved     _npmVersion: '1.1.59',
+968 silly install resolved     _npmUser: { name: 'artur', email: 'arturadib@gmail.com' },
+968 silly install resolved     maintainers: [ [Object] ],
+968 silly install resolved     directories: {},
+968 silly install resolved     _shasum: '417bf78ae22a703f8071f5df3e0a6ed004205d5f',
+968 silly install resolved     _resolved: 'https://registry.npmjs.org/shelljs/-/shelljs-0.0.9.tgz',
+968 silly install resolved     _from: 'shelljs@0.0.9',
+968 silly install resolved     bugs: { url: 'https://github.com/arturadib/shelljs/issues' },
+968 silly install resolved     readme: 'ERROR: No README data found!' } ]
+969 info install shelljs@0.0.9 into /usr/local/lib/node_modules/phonegap/node_modules/phonegap-build
+970 info installOne shelljs@0.0.9
+971 verbose installOne of shelljs to /usr/local/lib/node_modules/phonegap/node_modules/phonegap-build not in flight; installing
+972 verbose afterAdd /Users/liorlasry/.npm/archiver/0.14.3/package/package.json written
+973 silly install resolved [ { name: 'archiver',
+973 silly install resolved     version: '0.14.3',
+973 silly install resolved     description: 'a streaming interface for archive generation',
+973 silly install resolved     homepage: 'https://github.com/archiverjs/node-archiver',
+973 silly install resolved     author: { name: 'Chris Talkington', url: 'http://christalkington.com/' },
+973 silly install resolved     repository:
+973 silly install resolved      { type: 'git',
+973 silly install resolved        url: 'https://github.com/archiverjs/node-archiver.git' },
+973 silly install resolved     bugs: { url: 'https://github.com/archiverjs/node-archiver/issues' },
+973 silly install resolved     licenses: [ [Object] ],
+973 silly install resolved     main: 'lib/archiver.js',
+973 silly install resolved     files: [ 'lib', 'LICENSE-MIT' ],
+973 silly install resolved     engines: { node: '>= 0.10.0' },
+973 silly install resolved     scripts:
+973 silly install resolved      { test: 'mocha --reporter dot',
+973 silly install resolved        bencha: 'node benchmark/simple/pack-zip.js',
+973 silly install resolved        benchb: 'mocha --reporter list test/optional/bench.js' },
+973 silly install resolved     dependencies:
+973 silly install resolved      { async: '~0.9.0',
+973 silly install resolved        'buffer-crc32': '~0.2.1',
+973 silly install resolved        glob: '~4.3.0',
+973 silly install resolved        lazystream: '~0.1.0',
+973 silly install resolved        lodash: '~3.2.0',
+973 silly install resolved        'readable-stream': '~1.0.26',
+973 silly install resolved        'tar-stream': '~1.1.0',
+973 silly install resolved        'zip-stream': '~0.5.0' },
+973 silly install resolved     devDependencies:
+973 silly install resolved      { chai: '~2.0.0',
+973 silly install resolved        mocha: '~2.1.0',
+973 silly install resolved        rimraf: '~2.2.8',
+973 silly install resolved        mkdirp: '~0.5.0',
+973 silly install resolved        'stream-bench': '~0.1.2',
+973 silly install resolved        tar: '~1.0.3',
+973 silly install resolved        yauzl: '~2.2.1' },
+973 silly install resolved     keywords: [ 'archive', 'archiver', 'stream', 'zip', 'tar' ],
+973 silly install resolved     gitHead: 'c62a470d7a22a018e87bc9dc1d1e3adf07ddffc2',
+973 silly install resolved     _id: 'archiver@0.14.3',
+973 silly install resolved     _shasum: 'e265f2af74df8f24124c01cecccc0772f57f36fc',
+973 silly install resolved     _from: 'archiver@0.14.3',
+973 silly install resolved     _npmVersion: '2.5.1',
+973 silly install resolved     _nodeVersion: '0.12.0',
+973 silly install resolved     _npmUser: { name: 'ctalkington', email: 'chris@christalkington.com' },
+973 silly install resolved     maintainers: [ [Object] ],
+973 silly install resolved     dist:
+973 silly install resolved      { shasum: 'e265f2af74df8f24124c01cecccc0772f57f36fc',
+973 silly install resolved        tarball: 'http://registry.npmjs.org/archiver/-/archiver-0.14.3.tgz' },
+973 silly install resolved     directories: {},
+973 silly install resolved     _resolved: 'https://registry.npmjs.org/archiver/-/archiver-0.14.3.tgz',
+973 silly install resolved     readme: 'ERROR: No README data found!' } ]
+974 info install archiver@0.14.3 into /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap
+975 info installOne archiver@0.14.3
+976 verbose installOne of archiver to /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap not in flight; installing
+977 verbose afterAdd /Users/liorlasry/.npm/ip/0.3.1/package/package.json written
+978 silly install resolved [ { name: 'ip',
+978 silly install resolved     version: '0.3.1',
+978 silly install resolved     author: { name: 'Fedor Indutny', email: 'fedor@indutny.com' },
+978 silly install resolved     homepage: 'https://github.com/indutny/node-ip',
+978 silly install resolved     repository: { type: 'git', url: 'http://github.com/indutny/node-ip.git' },
+978 silly install resolved     main: 'lib/ip',
+978 silly install resolved     devDependencies: { mocha: '~1.3.2' },
+978 silly install resolved     scripts: { test: 'mocha --reporter spec test/*-test.js' },
+978 silly install resolved     description: 'IP address utilities for node.js',
+978 silly install resolved     bugs: { url: 'https://github.com/indutny/node-ip/issues' },
+978 silly install resolved     _id: 'ip@0.3.1',
+978 silly install resolved     _shasum: 'd0871c6ee08449b081bb277fdd6c8ff5e6fc845b',
+978 silly install resolved     _from: 'ip@0.3.1',
+978 silly install resolved     _npmVersion: '1.4.9',
+978 silly install resolved     _npmUser: { name: 'indutny', email: 'fedor@indutny.com' },
+978 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+978 silly install resolved     dist:
+978 silly install resolved      { shasum: 'd0871c6ee08449b081bb277fdd6c8ff5e6fc845b',
+978 silly install resolved        tarball: 'http://registry.npmjs.org/ip/-/ip-0.3.1.tgz' },
+978 silly install resolved     directories: {},
+978 silly install resolved     _resolved: 'https://registry.npmjs.org/ip/-/ip-0.3.1.tgz',
+978 silly install resolved     readme: 'ERROR: No README data found!' } ]
+979 info install ip@0.3.1 into /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap
+980 info installOne ip@0.3.1
+981 verbose installOne of ip to /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap not in flight; installing
+982 verbose afterAdd /Users/liorlasry/.npm/localtunnel/1.3.0/package/package.json written
+983 silly install resolved [ { author: { name: 'Roman Shtylman', email: 'shtylman@gmail.com' },
+983 silly install resolved     name: 'localtunnel',
+983 silly install resolved     description: 'expose localhost to the world',
+983 silly install resolved     version: '1.3.0',
+983 silly install resolved     repository:
+983 silly install resolved      { type: 'git',
+983 silly install resolved        url: 'git://github.com/shtylman/localtunnel.git' },
+983 silly install resolved     dependencies: { request: '2.11.4', optimist: '0.3.4', debug: '0.7.4' },
+983 silly install resolved     devDependencies: { mocha: '~1.17.0' },
+983 silly install resolved     scripts: { test: 'mocha --ui qunit --reporter list --timeout 10000 -- test/index.js' },
+983 silly install resolved     bin: { lt: './bin/client' },
+983 silly install resolved     main: './client.js',
+983 silly install resolved     bugs: { url: 'https://github.com/shtylman/localtunnel/issues' },
+983 silly install resolved     homepage: 'https://github.com/shtylman/localtunnel',
+983 silly install resolved     _id: 'localtunnel@1.3.0',
+983 silly install resolved     dist:
+983 silly install resolved      { shasum: '2a4388e44874ffe09229173ebd277303c9399869',
+983 silly install resolved        tarball: 'http://registry.npmjs.org/localtunnel/-/localtunnel-1.3.0.tgz' },
+983 silly install resolved     _from: 'localtunnel@1.3.0',
+983 silly install resolved     _npmVersion: '1.4.6',
+983 silly install resolved     _npmUser: { name: 'shtylman', email: 'shtylman@gmail.com' },
+983 silly install resolved     maintainers: [ [Object] ],
+983 silly install resolved     directories: {},
+983 silly install resolved     _shasum: '2a4388e44874ffe09229173ebd277303c9399869',
+983 silly install resolved     _resolved: 'https://registry.npmjs.org/localtunnel/-/localtunnel-1.3.0.tgz',
+983 silly install resolved     readme: 'ERROR: No README data found!' } ]
+984 info install localtunnel@1.3.0 into /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap
+985 info installOne localtunnel@1.3.0
+986 verbose installOne of localtunnel to /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap not in flight; installing
+987 verbose afterAdd /Users/liorlasry/.npm/http-proxy/1.8.1/package/package.json written
+988 silly install resolved [ { name: 'http-proxy',
+988 silly install resolved     version: '1.8.1',
+988 silly install resolved     repository:
+988 silly install resolved      { type: 'git',
+988 silly install resolved        url: 'https://github.com/nodejitsu/node-http-proxy.git' },
+988 silly install resolved     description: 'HTTP proxying for the masses',
+988 silly install resolved     author: { name: 'Nodejitsu Inc.', email: 'info@nodejitsu.com' },
+988 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+988 silly install resolved     main: 'index.js',
+988 silly install resolved     dependencies: { eventemitter3: '0.x.x', 'requires-port': '0.x.x' },
+988 silly install resolved     devDependencies:
+988 silly install resolved      { mocha: '*',
+988 silly install resolved        'expect.js': '*',
+988 silly install resolved        dox: '*',
+988 silly install resolved        coveralls: '*',
+988 silly install resolved        'mocha-lcov-reporter': '*',
+988 silly install resolved        blanket: '*',
+988 silly install resolved        ws: '~0.5.0',
+988 silly install resolved        'socket.io': '*',
+988 silly install resolved        'socket.io-client': '*',
+988 silly install resolved        async: '*' },
+988 silly install resolved     scripts:
+988 silly install resolved      { coveralls: 'mocha --require blanket --reporter mocha-lcov-reporter | ./node_modules/coveralls/bin/coveralls.js',
+988 silly install resolved        test: 'mocha -R landing test/*-test.js',
+988 silly install resolved        'test-cov': 'mocha --require blanket -R html-cov > cov/coverage.html' },
+988 silly install resolved     engines: { node: '>=0.10.0' },
+988 silly install resolved     license: 'MIT',
+988 silly install resolved     gitHead: '3311106c2c2346f3ac1ffe402b80bca3c7c59275',
+988 silly install resolved     bugs: { url: 'https://github.com/nodejitsu/node-http-proxy/issues' },
+988 silly install resolved     homepage: 'https://github.com/nodejitsu/node-http-proxy',
+988 silly install resolved     _id: 'http-proxy@1.8.1',
+988 silly install resolved     _shasum: '95ee083305c719dba858aee01da1bfc8d7ab9efe',
+988 silly install resolved     _from: 'http-proxy@1.8.1',
+988 silly install resolved     _npmVersion: '1.4.28',
+988 silly install resolved     _npmUser: { name: 'jcrugzz', email: 'jcrugzz@gmail.com' },
+988 silly install resolved     dist:
+988 silly install resolved      { shasum: '95ee083305c719dba858aee01da1bfc8d7ab9efe',
+988 silly install resolved        tarball: 'http://registry.npmjs.org/http-proxy/-/http-proxy-1.8.1.tgz' },
+988 silly install resolved     directories: {},
+988 silly install resolved     _resolved: 'https://registry.npmjs.org/http-proxy/-/http-proxy-1.8.1.tgz',
+988 silly install resolved     readme: 'ERROR: No README data found!' } ]
+989 info install http-proxy@1.8.1 into /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap
+990 info installOne http-proxy@1.8.1
+991 verbose installOne of http-proxy to /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap not in flight; installing
+992 verbose afterAdd /Users/liorlasry/.npm/tar/0.1.19/package/package.json written
+993 silly install resolved [ { author:
+993 silly install resolved      { name: 'Isaac Z. Schlueter',
+993 silly install resolved        email: 'i@izs.me',
+993 silly install resolved        url: 'http://blog.izs.me/' },
+993 silly install resolved     name: 'tar',
+993 silly install resolved     description: 'tar for node',
+993 silly install resolved     version: '0.1.19',
+993 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/node-tar.git' },
+993 silly install resolved     main: 'tar.js',
+993 silly install resolved     scripts: { test: 'tap test/*.js' },
+993 silly install resolved     dependencies: { inherits: '2', 'block-stream': '*', fstream: '~0.1.8' },
+993 silly install resolved     devDependencies: { tap: '0.x', rimraf: '1.x' },
+993 silly install resolved     license: 'BSD',
+993 silly install resolved     bugs: { url: 'https://github.com/isaacs/node-tar/issues' },
+993 silly install resolved     homepage: 'https://github.com/isaacs/node-tar',
+993 silly install resolved     _id: 'tar@0.1.19',
+993 silly install resolved     dist:
+993 silly install resolved      { shasum: 'fe45941799e660ce1ea52d875d37481b4bf13eac',
+993 silly install resolved        tarball: 'http://registry.npmjs.org/tar/-/tar-0.1.19.tgz' },
+993 silly install resolved     _from: 'tar@0.1.19',
+993 silly install resolved     _npmVersion: '1.3.15',
+993 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+993 silly install resolved     maintainers: [ [Object] ],
+993 silly install resolved     directories: {},
+993 silly install resolved     _shasum: 'fe45941799e660ce1ea52d875d37481b4bf13eac',
+993 silly install resolved     _resolved: 'https://registry.npmjs.org/tar/-/tar-0.1.19.tgz',
+993 silly install resolved     readme: 'ERROR: No README data found!' } ]
+994 info install tar@0.1.19 into /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap
+995 info installOne tar@0.1.19
+996 verbose installOne of tar to /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap not in flight; installing
+997 verbose afterAdd /Users/liorlasry/.npm/request/2.33.0/package/package.json written
+998 silly install resolved [ { name: 'request',
+998 silly install resolved     description: 'Simplified HTTP request client.',
+998 silly install resolved     tags: [ 'http', 'simple', 'util', 'utility' ],
+998 silly install resolved     version: '2.33.0',
+998 silly install resolved     author: { name: 'Mikeal Rogers', email: 'mikeal.rogers@gmail.com' },
+998 silly install resolved     repository: { type: 'git', url: 'http://github.com/mikeal/request.git' },
+998 silly install resolved     bugs: { url: 'http://github.com/mikeal/request/issues' },
+998 silly install resolved     engines: [ 'node >= 0.8.0' ],
+998 silly install resolved     main: 'index.js',
+998 silly install resolved     dependencies:
+998 silly install resolved      { qs: '~0.6.0',
+998 silly install resolved        'json-stringify-safe': '~5.0.0',
+998 silly install resolved        'forever-agent': '~0.5.0',
+998 silly install resolved        'node-uuid': '~1.4.0',
+998 silly install resolved        mime: '~1.2.9',
+998 silly install resolved        'tough-cookie': '>=0.12.0',
+998 silly install resolved        'form-data': '~0.1.0',
+998 silly install resolved        'tunnel-agent': '~0.3.0',
+998 silly install resolved        'http-signature': '~0.10.0',
+998 silly install resolved        'oauth-sign': '~0.3.0',
+998 silly install resolved        hawk: '~1.0.0',
+998 silly install resolved        'aws-sign2': '~0.5.0' },
+998 silly install resolved     optionalDependencies:
+998 silly install resolved      { 'tough-cookie': '>=0.12.0',
+998 silly install resolved        'form-data': '~0.1.0',
+998 silly install resolved        'tunnel-agent': '~0.3.0',
+998 silly install resolved        'http-signature': '~0.10.0',
+998 silly install resolved        'oauth-sign': '~0.3.0',
+998 silly install resolved        hawk: '~1.0.0',
+998 silly install resolved        'aws-sign2': '~0.5.0' },
+998 silly install resolved     scripts: { test: 'node tests/run.js' },
+998 silly install resolved     homepage: 'https://github.com/mikeal/request',
+998 silly install resolved     _id: 'request@2.33.0',
+998 silly install resolved     dist:
+998 silly install resolved      { shasum: '5167878131726070ec633752ea230a2379dc65ff',
+998 silly install resolved        tarball: 'http://registry.npmjs.org/request/-/request-2.33.0.tgz' },
+998 silly install resolved     _from: 'request@2.33.0',
+998 silly install resolved     _npmVersion: '1.3.21',
+998 silly install resolved     _npmUser: { name: 'mikeal', email: 'mikeal.rogers@gmail.com' },
+998 silly install resolved     maintainers: [ [Object] ],
+998 silly install resolved     directories: {},
+998 silly install resolved     _shasum: '5167878131726070ec633752ea230a2379dc65ff',
+998 silly install resolved     _resolved: 'https://registry.npmjs.org/request/-/request-2.33.0.tgz',
+998 silly install resolved     readme: 'ERROR: No README data found!' } ]
+999 info install request@2.33.0 into /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap
+1000 info installOne request@2.33.0
+1001 verbose installOne of request to /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap not in flight; installing
+1002 verbose afterAdd /Users/liorlasry/.npm/home-dir/0.1.2/package/package.json written
+1003 silly install resolved [ { name: 'home-dir',
+1003 silly install resolved     version: '0.1.2',
+1003 silly install resolved     description: 'Get home directory path on any platform',
+1003 silly install resolved     main: 'index.js',
+1003 silly install resolved     scripts: { test: 'echo "Test" && exit 1' },
+1003 silly install resolved     repository:
+1003 silly install resolved      { type: 'git',
+1003 silly install resolved        url: 'https://github.com/scottcorgan/home-dir.git' },
+1003 silly install resolved     keywords: [ 'home', 'directory', 'user', 'path' ],
+1003 silly install resolved     author: { name: 'Scott Corgan' },
+1003 silly install resolved     license: 'BSD-2-Clause',
+1003 silly install resolved     bugs: { url: 'https://github.com/scottcorgan/home-dir/issues' },
+1003 silly install resolved     _id: 'home-dir@0.1.2',
+1003 silly install resolved     dist:
+1003 silly install resolved      { shasum: 'b85aad0bfa79468ddeb6dcac897596133aaca8b9',
+1003 silly install resolved        tarball: 'http://registry.npmjs.org/home-dir/-/home-dir-0.1.2.tgz' },
+1003 silly install resolved     _from: 'home-dir@0.1.2',
+1003 silly install resolved     _npmVersion: '1.3.11',
+1003 silly install resolved     _npmUser: { name: 'scottcorgan', email: 'scottcorgan@gmail.com' },
+1003 silly install resolved     maintainers: [ [Object] ],
+1003 silly install resolved     directories: {},
+1003 silly install resolved     _shasum: 'b85aad0bfa79468ddeb6dcac897596133aaca8b9',
+1003 silly install resolved     _resolved: 'https://registry.npmjs.org/home-dir/-/home-dir-0.1.2.tgz',
+1003 silly install resolved     readme: 'ERROR: No README data found!',
+1003 silly install resolved     homepage: 'https://github.com/scottcorgan/home-dir' } ]
+1004 info install home-dir@0.1.2 into /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap
+1005 info installOne home-dir@0.1.2
+1006 verbose installOne of home-dir to /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap not in flight; installing
+1007 verbose afterAdd /Users/liorlasry/.npm/request/2.11.4/package/package.json written
+1008 silly install resolved [ { name: 'request',
+1008 silly install resolved     description: 'Simplified HTTP request client.',
+1008 silly install resolved     tags: [ 'http', 'simple', 'util', 'utility' ],
+1008 silly install resolved     version: '2.11.4',
+1008 silly install resolved     author: { name: 'Mikeal Rogers', email: 'mikeal.rogers@gmail.com' },
+1008 silly install resolved     repository: { type: 'git', url: 'git://github.com/mikeal/request.git' },
+1008 silly install resolved     bugs: { url: 'http://github.com/mikeal/request/issues' },
+1008 silly install resolved     engines: [ 'node >= 0.3.6' ],
+1008 silly install resolved     main: './main',
+1008 silly install resolved     dependencies: { 'form-data': '~0.0.3', mime: '~1.2.7' },
+1008 silly install resolved     bundleDependencies: [ 'form-data', 'mime' ],
+1008 silly install resolved     scripts: { test: 'node tests/run.js' },
+1008 silly install resolved     _npmUser: { name: 'mikeal', email: 'mikeal.rogers@gmail.com' },
+1008 silly install resolved     _id: 'request@2.11.4',
+1008 silly install resolved     devDependencies: {},
+1008 silly install resolved     optionalDependencies: {},
+1008 silly install resolved     _engineSupported: true,
+1008 silly install resolved     _npmVersion: '1.1.24',
+1008 silly install resolved     _nodeVersion: 'v0.8.1',
+1008 silly install resolved     _defaultsLoaded: true,
+1008 silly install resolved     dist:
+1008 silly install resolved      { shasum: '6347d7d44e52dc588108cc1ce5cee975fc8926de',
+1008 silly install resolved        tarball: 'http://registry.npmjs.org/request/-/request-2.11.4.tgz' },
+1008 silly install resolved     maintainers: [ [Object] ],
+1008 silly install resolved     directories: {},
+1008 silly install resolved     _shasum: '6347d7d44e52dc588108cc1ce5cee975fc8926de',
+1008 silly install resolved     _resolved: 'https://registry.npmjs.org/request/-/request-2.11.4.tgz',
+1008 silly install resolved     _from: 'request@2.11.4',
+1008 silly install resolved     readme: 'ERROR: No README data found!',
+1008 silly install resolved     homepage: 'https://github.com/mikeal/request' } ]
+1009 info install request@2.11.4 into /usr/local/lib/node_modules/phonegap/node_modules/phonegap-build/node_modules/phonegap-build-api
+1010 info installOne request@2.11.4
+1011 verbose installOne of request to /usr/local/lib/node_modules/phonegap/node_modules/phonegap-build/node_modules/phonegap-build-api not in flight; installing
+1012 verbose afterAdd /Users/liorlasry/.npm/walkdir/0.0.8/package/package.json written
+1013 silly install resolved [ { name: 'walkdir',
+1013 silly install resolved     description: 'Find files simply. Walks a directory tree emitting events based on what it finds. Presents a familliar callback/emitter/a+sync interface. Walk a tree of any depth.',
+1013 silly install resolved     version: '0.0.8',
+1013 silly install resolved     author: { name: 'Ryan Day', email: 'soldair@gmail.com' },
+1013 silly install resolved     keywords: [ 'find', 'walk', 'tree', 'files', 'fs' ],
+1013 silly install resolved     main: './walkdir.js',
+1013 silly install resolved     homepage: 'http://github.com/soldair/node-walkdir',
+1013 silly install resolved     repository:
+1013 silly install resolved      { type: 'git',
+1013 silly install resolved        url: 'git://github.com/soldair/node-walkdir.git' },
+1013 silly install resolved     scripts: { test: './test.sh' },
+1013 silly install resolved     devDependencies: { tap: '*' },
+1013 silly install resolved     engines: { node: '>=0.6.0' },
+1013 silly install resolved     license: 'MIT/X11',
+1013 silly install resolved     contributors: [ [Object] ],
+1013 silly install resolved     gitHead: 'e45e8ac0c68500d53c4050c62c08113f6fe43799',
+1013 silly install resolved     bugs: { url: 'https://github.com/soldair/node-walkdir/issues' },
+1013 silly install resolved     _id: 'walkdir@0.0.8',
+1013 silly install resolved     _shasum: '9e2fc22f059ebd7ca557902706b9503502abccf7',
+1013 silly install resolved     _from: 'walkdir@0.0.8',
+1013 silly install resolved     _npmVersion: '2.5.1',
+1013 silly install resolved     _nodeVersion: '0.12.0',
+1013 silly install resolved     _npmUser: { name: 'soldair', email: 'soldair@gmail.com' },
+1013 silly install resolved     maintainers: [ [Object] ],
+1013 silly install resolved     dist:
+1013 silly install resolved      { shasum: '9e2fc22f059ebd7ca557902706b9503502abccf7',
+1013 silly install resolved        tarball: 'http://registry.npmjs.org/walkdir/-/walkdir-0.0.8.tgz' },
+1013 silly install resolved     directories: {},
+1013 silly install resolved     _resolved: 'https://registry.npmjs.org/walkdir/-/walkdir-0.0.8.tgz',
+1013 silly install resolved     readme: 'ERROR: No README data found!' } ]
+1014 info install walkdir@0.0.8 into /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap
+1015 info installOne walkdir@0.0.8
+1016 verbose installOne of walkdir to /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap not in flight; installing
+1017 verbose afterAdd /Users/liorlasry/.npm/useragent/2.0.8/package/package.json written
+1018 silly install resolved [ { name: 'useragent',
+1018 silly install resolved     version: '2.0.8',
+1018 silly install resolved     description: 'Fastest, most accurate & effecient user agent string parser, uses Browserscope\'s research for parsing',
+1018 silly install resolved     author: { name: 'Arnout Kazemier' },
+1018 silly install resolved     main: './index.js',
+1018 silly install resolved     keywords:
+1018 silly install resolved      [ 'agent',
+1018 silly install resolved        'browser',
+1018 silly install resolved        'browserscope',
+1018 silly install resolved        'os',
+1018 silly install resolved        'parse',
+1018 silly install resolved        'parser',
+1018 silly install resolved        'ua',
+1018 silly install resolved        'ua-parse',
+1018 silly install resolved        'ua-parser',
+1018 silly install resolved        'user agent',
+1018 silly install resolved        'user',
+1018 silly install resolved        'user-agent',
+1018 silly install resolved        'useragent',
+1018 silly install resolved        'version' ],
+1018 silly install resolved     maintainers: [ [Object] ],
+1018 silly install resolved     license:
+1018 silly install resolved      { type: 'MIT',
+1018 silly install resolved        url: 'https://github.com/3rd-Eden/useragent/blob/master/LICENSE' },
+1018 silly install resolved     repository: { type: 'git', url: 'http://github.com/3rd-Eden/useragent.git' },
+1018 silly install resolved     devDependencies:
+1018 silly install resolved      { should: '*',
+1018 silly install resolved        mocha: '*',
+1018 silly install resolved        'long-stack-traces': '0.1.x',
+1018 silly install resolved        yamlparser: '0.0.x',
+1018 silly install resolved        request: '2.9.x',
+1018 silly install resolved        semver: '1.0.x',
+1018 silly install resolved        'pre-commit': '0.0.x' },
+1018 silly install resolved     'pre-commit': [ 'test', 'update' ],
+1018 silly install resolved     scripts:
+1018 silly install resolved      { test: 'mocha $(find test -name \'*.test.js\')',
+1018 silly install resolved        qa: 'mocha --ui exports $(find test -name \'*.qa.js\')',
+1018 silly install resolved        update: 'node ./bin/update.js' },
+1018 silly install resolved     dependencies: { 'lru-cache': '2.2.x' },
+1018 silly install resolved     bugs: { url: 'https://github.com/3rd-Eden/useragent/issues' },
+1018 silly install resolved     homepage: 'https://github.com/3rd-Eden/useragent',
+1018 silly install resolved     _id: 'useragent@2.0.8',
+1018 silly install resolved     dist:
+1018 silly install resolved      { shasum: '32caa86d3f404e92d7d4183831dd103ebc1a3125',
+1018 silly install resolved        tarball: 'http://registry.npmjs.org/useragent/-/useragent-2.0.8.tgz' },
+1018 silly install resolved     _from: 'useragent@2.0.8',
+1018 silly install resolved     _npmVersion: '1.3.21',
+1018 silly install resolved     _npmUser: { name: 'V1', email: 'info@3rd-Eden.com' },
+1018 silly install resolved     directories: {},
+1018 silly install resolved     _shasum: '32caa86d3f404e92d7d4183831dd103ebc1a3125',
+1018 silly install resolved     _resolved: 'https://registry.npmjs.org/useragent/-/useragent-2.0.8.tgz',
+1018 silly install resolved     readme: 'ERROR: No README data found!' } ]
+1019 info install useragent@2.0.8 into /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap
+1020 info installOne useragent@2.0.8
+1021 verbose installOne of useragent to /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap not in flight; installing
+1022 verbose afterAdd /Users/liorlasry/.npm/socket.io/1.0.4/package/package.json written
+1023 silly install resolved [ { name: 'socket.io',
+1023 silly install resolved     version: '1.0.4',
+1023 silly install resolved     description: 'node.js realtime framework server',
+1023 silly install resolved     keywords:
+1023 silly install resolved      [ 'realtime',
+1023 silly install resolved        'framework',
+1023 silly install resolved        'websocket',
+1023 silly install resolved        'tcp',
+1023 silly install resolved        'events',
+1023 silly install resolved        'socket',
+1023 silly install resolved        'io' ],
+1023 silly install resolved     repository: { type: 'git', url: 'git://github.com/LearnBoost/socket.io' },
+1023 silly install resolved     scripts: { test: 'make test' },
+1023 silly install resolved     dependencies:
+1023 silly install resolved      { 'engine.io': '1.2.2',
+1023 silly install resolved        'socket.io-parser': '2.2.0',
+1023 silly install resolved        'socket.io-client': '1.0.4',
+1023 silly install resolved        'socket.io-adapter': '0.2.0',
+1023 silly install resolved        'has-binary-data': '0.1.1',
+1023 silly install resolved        debug: '0.7.4' },
+1023 silly install resolved     devDependencies:
+1023 silly install resolved      { mocha: '1.16.2',
+1023 silly install resolved        'expect.js': '0.3.1',
+1023 silly install resolved        supertest: '0.8.2',
+1023 silly install resolved        superagent: '0.17.0',
+1023 silly install resolved        istanbul: '0.2.3' },
+1023 silly install resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+1023 silly install resolved     bugs: { url: 'https://github.com/LearnBoost/socket.io/issues' },
+1023 silly install resolved     homepage: 'https://github.com/LearnBoost/socket.io',
+1023 silly install resolved     _id: 'socket.io@1.0.4',
+1023 silly install resolved     _shasum: '103cb555e2c730f4447ed93a22d915d4f45b149a',
+1023 silly install resolved     _from: 'socket.io@1.0.4',
+1023 silly install resolved     _npmVersion: '1.4.7',
+1023 silly install resolved     _npmUser: { name: 'rauchg', email: 'rauchg@gmail.com' },
+1023 silly install resolved     maintainers: [ [Object] ],
+1023 silly install resolved     dist:
+1023 silly install resolved      { shasum: '103cb555e2c730f4447ed93a22d915d4f45b149a',
+1023 silly install resolved        tarball: 'http://registry.npmjs.org/socket.io/-/socket.io-1.0.4.tgz' },
+1023 silly install resolved     directories: {},
+1023 silly install resolved     _resolved: 'https://registry.npmjs.org/socket.io/-/socket.io-1.0.4.tgz',
+1023 silly install resolved     readme: 'ERROR: No README data found!' } ]
+1024 info install socket.io@1.0.4 into /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap
+1025 info installOne socket.io@1.0.4
+1026 verbose installOne of socket.io to /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap not in flight; installing
+1027 verbose afterAdd /Users/liorlasry/.npm/throttleit/0.0.2/package/package.json written
+1028 silly install resolved [ { name: 'throttleit',
+1028 silly install resolved     description: 'Throttle a function',
+1028 silly install resolved     version: '0.0.2',
+1028 silly install resolved     keywords: [],
+1028 silly install resolved     repository: { type: 'git', url: 'git://github.com/component/throttle.git' },
+1028 silly install resolved     dependencies: {},
+1028 silly install resolved     development: {},
+1028 silly install resolved     license: 'MIT',
+1028 silly install resolved     component: { scripts: [Object] },
+1028 silly install resolved     _id: 'throttleit@0.0.2',
+1028 silly install resolved     dist:
+1028 silly install resolved      { shasum: 'cfedf88e60c00dd9697b61fdd2a8343a9b680eaf',
+1028 silly install resolved        tarball: 'http://registry.npmjs.org/throttleit/-/throttleit-0.0.2.tgz' },
+1028 silly install resolved     _from: 'throttleit@0.0.2',
+1028 silly install resolved     _npmVersion: '1.2.15',
+1028 silly install resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+1028 silly install resolved     maintainers: [ [Object], [Object] ],
+1028 silly install resolved     directories: {},
+1028 silly install resolved     _shasum: 'cfedf88e60c00dd9697b61fdd2a8343a9b680eaf',
+1028 silly install resolved     _resolved: 'https://registry.npmjs.org/throttleit/-/throttleit-0.0.2.tgz',
+1028 silly install resolved     bugs: { url: 'https://github.com/component/throttle/issues' },
+1028 silly install resolved     readme: 'ERROR: No README data found!',
+1028 silly install resolved     homepage: 'https://github.com/component/throttle' } ]
+1029 info install throttleit@0.0.2 into /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap/node_modules/request-progress
+1030 info installOne throttleit@0.0.2
+1031 verbose installOne of throttleit to /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap/node_modules/request-progress not in flight; installing
+1032 silly cache afterAdd connect@2.12.0
+1033 verbose afterAdd /Users/liorlasry/.npm/connect/2.12.0/package/package.json not in flight; writing
+1034 verbose afterAdd /Users/liorlasry/.npm/node-static/0.7.0/package/package.json written
+1035 silly install resolved [ { name: 'node-static',
+1035 silly install resolved     description: 'simple, compliant file streaming module for node',
+1035 silly install resolved     url: 'http://github.com/cloudhead/node-static',
+1035 silly install resolved     keywords: [ 'http', 'static', 'file', 'server' ],
+1035 silly install resolved     author: { name: 'Alexis Sellier', email: 'self@cloudhead.net' },
+1035 silly install resolved     contributors: [ [Object] ],
+1035 silly install resolved     repository: { type: 'git', url: 'http://github.com/cloudhead/node-static' },
+1035 silly install resolved     main: './lib/node-static',
+1035 silly install resolved     scripts: { test: 'vows --spec --isolate' },
+1035 silly install resolved     bin: { static: 'bin/cli.js' },
+1035 silly install resolved     license: 'MIT',
+1035 silly install resolved     dependencies: { optimist: '>=0.3.4', colors: '>=0.6.0', mime: '>=1.2.9' },
+1035 silly install resolved     devDependencies: { request: 'latest', vows: 'latest' },
+1035 silly install resolved     version: '0.7.0',
+1035 silly install resolved     engines: { node: '>= 0.4.1' },
+1035 silly install resolved     _id: 'node-static@0.7.0',
+1035 silly install resolved     dist:
+1035 silly install resolved      { shasum: 'df0830785b2d6e008e3648e622750f9234f6ab23',
+1035 silly install resolved        tarball: 'http://registry.npmjs.org/node-static/-/node-static-0.7.0.tgz' },
+1035 silly install resolved     _from: 'node-static@0.7.0',
+1035 silly install resolved     _npmVersion: '1.2.14',
+1035 silly install resolved     _npmUser: { name: 'phstc', email: 'pablo@pablocantero.com' },
+1035 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+1035 silly install resolved     directories: {},
+1035 silly install resolved     _shasum: 'df0830785b2d6e008e3648e622750f9234f6ab23',
+1035 silly install resolved     _resolved: 'https://registry.npmjs.org/node-static/-/node-static-0.7.0.tgz',
+1035 silly install resolved     bugs: { url: 'https://github.com/cloudhead/node-static/issues' },
+1035 silly install resolved     readme: 'ERROR: No README data found!',
+1035 silly install resolved     homepage: 'https://github.com/cloudhead/node-static' } ]
+1036 info install node-static@0.7.0 into /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap
+1037 info installOne node-static@0.7.0
+1038 verbose installOne of node-static to /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap not in flight; installing
+1039 verbose afterAdd /Users/liorlasry/.npm/optimist/0.3.7/package/package.json written
+1040 silly install resolved [ { name: 'optimist',
+1040 silly install resolved     version: '0.3.7',
+1040 silly install resolved     description: 'Light-weight option parsing with an argv hash. No optstrings attached.',
+1040 silly install resolved     main: './index.js',
+1040 silly install resolved     dependencies: { wordwrap: '~0.0.2' },
+1040 silly install resolved     devDependencies: { hashish: '~0.0.4', tap: '~0.4.0' },
+1040 silly install resolved     scripts: { test: 'tap ./test/*.js' },
+1040 silly install resolved     repository:
+1040 silly install resolved      { type: 'git',
+1040 silly install resolved        url: 'http://github.com/substack/node-optimist.git' },
+1040 silly install resolved     keywords:
+1040 silly install resolved      [ 'argument',
+1040 silly install resolved        'args',
+1040 silly install resolved        'option',
+1040 silly install resolved        'parser',
+1040 silly install resolved        'parsing',
+1040 silly install resolved        'cli',
+1040 silly install resolved        'command' ],
+1040 silly install resolved     author:
+1040 silly install resolved      { name: 'James Halliday',
+1040 silly install resolved        email: 'mail@substack.net',
+1040 silly install resolved        url: 'http://substack.net' },
+1040 silly install resolved     license: 'MIT/X11',
+1040 silly install resolved     engine: { node: '>=0.4' },
+1040 silly install resolved     _id: 'optimist@0.3.7',
+1040 silly install resolved     dist:
+1040 silly install resolved      { shasum: 'c90941ad59e4273328923074d2cf2e7cbc6ec0d9',
+1040 silly install resolved        tarball: 'http://registry.npmjs.org/optimist/-/optimist-0.3.7.tgz' },
+1040 silly install resolved     _from: 'optimist@0.3.7',
+1040 silly install resolved     _npmVersion: '1.2.2',
+1040 silly install resolved     _npmUser: { name: 'substack', email: 'mail@substack.net' },
+1040 silly install resolved     maintainers: [ [Object] ],
+1040 silly install resolved     directories: {},
+1040 silly install resolved     _shasum: 'c90941ad59e4273328923074d2cf2e7cbc6ec0d9',
+1040 silly install resolved     _resolved: 'https://registry.npmjs.org/optimist/-/optimist-0.3.7.tgz',
+1040 silly install resolved     bugs: { url: 'https://github.com/substack/node-optimist/issues' },
+1040 silly install resolved     readme: 'ERROR: No README data found!',
+1040 silly install resolved     homepage: 'https://github.com/substack/node-optimist' } ]
+1041 info install optimist@0.3.7 into /usr/local/lib/node_modules/phonegap/node_modules/phonegap-build
+1042 info installOne optimist@0.3.7
+1043 verbose installOne of optimist to /usr/local/lib/node_modules/phonegap/node_modules/phonegap-build not in flight; installing
+1044 verbose afterAdd /Users/liorlasry/.npm/connect/2.12.0/package/package.json written
+1045 silly install resolved [ { name: 'connect',
+1045 silly install resolved     version: '2.12.0',
+1045 silly install resolved     description: 'High performance middleware framework',
+1045 silly install resolved     keywords: [ 'framework', 'web', 'middleware', 'connect', 'rack' ],
+1045 silly install resolved     repository: { type: 'git', url: 'git://github.com/senchalabs/connect.git' },
+1045 silly install resolved     author:
+1045 silly install resolved      { name: 'TJ Holowaychuk',
+1045 silly install resolved        email: 'tj@vision-media.ca',
+1045 silly install resolved        url: 'http://tjholowaychuk.com' },
+1045 silly install resolved     dependencies:
+1045 silly install resolved      { batch: '0.5.0',
+1045 silly install resolved        qs: '0.6.6',
+1045 silly install resolved        'cookie-signature': '1.0.1',
+1045 silly install resolved        'buffer-crc32': '0.2.1',
+1045 silly install resolved        cookie: '0.1.0',
+1045 silly install resolved        send: '0.1.4',
+1045 silly install resolved        bytes: '0.2.1',
+1045 silly install resolved        fresh: '0.2.0',
+1045 silly install resolved        pause: '0.0.1',
+1045 silly install resolved        uid2: '0.0.3',
+1045 silly install resolved        debug: '>= 0.7.3 < 1',
+1045 silly install resolved        methods: '0.1.0',
+1045 silly install resolved        'raw-body': '1.1.2',
+1045 silly install resolved        negotiator: '0.3.0',
+1045 silly install resolved        multiparty: '2.2.0' },
+1045 silly install resolved     devDependencies:
+1045 silly install resolved      { should: '>= 2.0.2 < 3',
+1045 silly install resolved        mocha: '>= 1.13.0 < 2',
+1045 silly install resolved        jade: '>= 0.35.0 < 1',
+1045 silly install resolved        dox: '>= 0.4.4 < 1' },
+1045 silly install resolved     licenses: [ [Object] ],
+1045 silly install resolved     main: 'index',
+1045 silly install resolved     engines: { node: '>= 0.8.0' },
+1045 silly install resolved     scripts: { test: 'make' },
+1045 silly install resolved     bugs: { url: 'https://github.com/senchalabs/connect/issues' },
+1045 silly install resolved     homepage: 'https://github.com/senchalabs/connect',
+1045 silly install resolved     _id: 'connect@2.12.0',
+1045 silly install resolved     dist:
+1045 silly install resolved      { shasum: '31d8fa0dcacdf1908d822bd2923be8a2d2a7ed9a',
+1045 silly install resolved        tarball: 'http://registry.npmjs.org/connect/-/connect-2.12.0.tgz' },
+1045 silly install resolved     _from: 'connect@2.12.0',
+1045 silly install resolved     _npmVersion: '1.3.14',
+1045 silly install resolved     _npmUser: { name: 'jongleberry', email: 'jonathanrichardong@gmail.com' },
+1045 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+1045 silly install resolved     directories: {},
+1045 silly install resolved     _shasum: '31d8fa0dcacdf1908d822bd2923be8a2d2a7ed9a',
+1045 silly install resolved     _resolved: 'https://registry.npmjs.org/connect/-/connect-2.12.0.tgz',
+1045 silly install resolved     readme: '# Connect [![build status](https://secure.travis-ci.org/senchalabs/connect.png)](http://travis-ci.org/senchalabs/connect)\n\n  Connect is an extensible HTTP server framework for [node](http://nodejs.org), providing high performance "plugins" known as _middleware_.\n\n Connect is bundled with over _20_ commonly used middleware, including\n a logger, session support, cookie parser, and [more](http://senchalabs.github.com/connect). Be sure to view the 2.x [documentation](http://senchalabs.github.com/connect/).\n\n```js\nvar connect = require(\'connect\')\n  , http = require(\'http\');\n\nvar app = connect()\n  .use(connect.favicon())\n  .use(connect.logger(\'dev\'))\n  .use(connect.static(\'public\'))\n  .use(connect.directory(\'public\'))\n  .use(connect.cookieParser())\n  .use(connect.session({ secret: \'my secret here\' }))\n  .use(function(req, res){\n    res.end(\'Hello from Connect!\\n\');\n  });\n\nhttp.createServer(app).listen(3000);\n```\n\n## Middleware\n\n  - [basicAuth](http://www.senchalabs.org/connect/basicAuth.html)\n  - [bodyParser](http://www.senchalabs.org/connect/bodyParser.html)\n  - [compress](http://www.senchalabs.org/connect/compress.html)\n  - [cookieParser](http://www.senchalabs.org/connect/cookieParser.html)\n  - [cookieSession](http://www.senchalabs.org/connect/cookieSession.html)\n  - [csrf](http://www.senchalabs.org/connect/csrf.html)\n  - [directory](http://www.senchalabs.org/connect/directory.html)\n  - [errorHandler](http://www.senchalabs.org/connect/errorHandler.html)\n  - [favicon](http://www.senchalabs.org/connect/favicon.html)\n  - [json](http://www.senchalabs.org/connect/json.html)\n  - [limit](http://www.senchalabs.org/connect/limit.html)\n  - [logger](http://www.senchalabs.org/connect/logger.html)\n  - [methodOverride](http://www.senchalabs.org/connect/methodOverride.html)\n  - [multipart](http://www.senchalabs.org/connect/multipart.html)\n  - [urlencoded](http://www.senchalabs.org/connect/urlencoded.html)\n  - [query](http://www.senchalabs.org/connect/query.html)\n  - [responseTime](http://www.senchalabs.org/connect/responseTime.html)\n  - [session](http://www.senchalabs.org/connect/session.html)\n  - [static](http://www.senchalabs.org/connect/static.html)\n  - [staticCache](http://www.senchalabs.org/connect/staticCache.html)\n  - [subdomains](http://www.senchalabs.org/connect/subdomains.html)\n  - [vhost](http://www.senchalabs.org/connect/vhost.html)\n\n## Running Tests\n\nfirst:\n\n    $ npm install -d\n\nthen:\n\n    $ make test\n\n## Contributors\n\n https://github.com/senchalabs/connect/graphs/contributors\n\n## Node Compatibility\n\n  Connect `< 1.x` is compatible with node 0.2.x\n\n\n  Connect `1.x` is compatible with node 0.4.x\n\n\n  Connect `2.x` is compatible with node 0.6.x\n\n\n  Connect (_master_) is compatible with node 0.8.x\n\n## CLA\n\n [http://sencha.com/cla](http://sencha.com/cla)\n\n## License\n\nView the [LICENSE](https://github.com/senchalabs/connect/blob/master/LICENSE) file. The [Silk](http://www.famfamfam.com/lab/icons/silk/) icons used by the `directory` middleware created by/copyright of [FAMFAMFAM](http://www.famfamfam.com/).\n',
+1045 silly install resolved     readmeFilename: 'Readme.md' } ]
+1046 info install connect@2.12.0 into /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap
+1047 info installOne connect@2.12.0
+1048 verbose installOne of connect to /usr/local/lib/node_modules/phonegap/node_modules/connect-phonegap not in flight; installing
+1049 warn locking Error: EACCES, open '/Users/liorlasry/.npm/_locks/minimist-8e20a7e2222dc97f.lock'
+1049 warn locking  /Users/liorlasry/.npm/_locks/minimist-8e20a7e2222dc97f.lock failed { [Error: EACCES, open '/Users/liorlasry/.npm/_locks/minimist-8e20a7e2222dc97f.lock']
+1049 warn locking   errno: 3,
+1049 warn locking   code: 'EACCES',
+1049 warn locking   path: '/Users/liorlasry/.npm/_locks/minimist-8e20a7e2222dc97f.lock' }
+1050 verbose stack Error: Attempt to unlock /usr/local/lib/node_modules/phonegap/node_modules/minimist, which hasn't been locked
+1050 verbose stack     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:66:11)
+1050 verbose stack     at cb (/usr/local/lib/node_modules/npm/lib/install.js:929:5)
+1050 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:933:20
+1050 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:40:9
+1050 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+1050 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+1050 verbose stack     at Object.oncomplete (fs.js:107:15)
+1051 verbose cwd /Users/liorlasry/Google Drive/Chosen Management/Graphics/web/phonegap/gongbusters
+1052 error Darwin 14.4.0
+1053 error argv "node" "/usr/local/bin/npm" "update" "-g"
+1054 error node v0.10.26
+1055 error npm  v2.1.18
+1056 error Attempt to unlock /usr/local/lib/node_modules/phonegap/node_modules/minimist, which hasn't been locked
+1057 error If you need help, you may report this error at:
+1057 error     <http://github.com/npm/npm/issues>
+1058 verbose exit [ 1, true ]
